@@ -1,1 +1,4 @@
-print("Hello, World! Our group members are: [name1, name2, Kashish Satija, name4, Arjun]")
+print("Hello, World! Our group members are: [Edward Huang, Rania Aamer, Kashish Satija, Muhammad Hamza, Arjun]")
+
+
+
