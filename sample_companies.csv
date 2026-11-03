@@ -1,0 +1,11 @@
+company_number,company_name,status_today,sic_1,incorporated,as_of_date,age_years,accounts_type_last,accounts_filings,avg_days_late_accounts,max_days_late_accounts,days_since_last_accounts,directors_active,director_resignations_12m,director_appointments_12m,address_changes,strike_off_warnings,charges_created,charges_outstanding,filings_total,outcome,outcome_date,failed_within_12m
+NI656894,JIANG SWEET CHILLI LTD,active,56101,2018-11-06,2025-10-14,6.94,micro-entity,5,7.8,95.0,411.0,1,0,0,0,0,0,0,14,active,2026-10-14,0.0
+NI667102,JN CATERING AND EVENTS LTD,active,56101,2020-01-20,2025-10-14,5.73,micro-entity,1,81.0,81.0,1363.0,1,0,0,0,1,0,0,6,active,2026-10-14,0.0
+SC649769,GOOD FOOD FROM NAPLES LTD,active,56101,2019-12-16,2025-10-14,5.83,micro-entity,1,-41.0,-41.0,1516.0,1,0,0,0,0,0,0,7,active,2026-10-14,0.0
+12325682,ELLY'S CUISINE LTD,active,56101,2019-11-20,2025-10-14,5.9,micro-entity,3,-3.3,1.0,777.0,1,0,0,0,1,0,0,13,active,2026-10-14,0.0
+11837902,SPICE CAPITAL RESTAURANT LTD,liquidation,56101,2019-02-20,2022-05-11,3.22,total-exemption-full,1,79.0,79.0,449.0,1,0,0,0,1,0,0,6,insolvency,2023-05-11,1.0
+11562953,THE STUFFED OLIVE LIMITED,liquidation,56101,2018-09-11,2021-09-28,3.05,micro-entity,2,-149.5,-35.0,125.0,1,2,2,3,0,0,0,54,insolvency,2022-09-28,1.0
+11648119,PITCH FOODS LTD,liquidation,56101,2018-10-29,2022-09-04,3.85,total-exemption-full,3,7.7,26.0,37.0,1,0,0,1,0,1,1,11,insolvency,2023-09-04,1.0
+15661339,CEM GROUP LTD,dissolved,55100,2024-04-19,2024-02-05,-0.2,,0,,,,0,0,0,0,0,0,0,0,voluntary_strike_off,2025-02-04,
+10195922,STI - SCALABIS TAGUS INTERNACIONAL T & C LIMITED,dissolved,56101,2016-05-24,2017-12-31,1.6,,0,,,,2,1,0,0,0,0,0,5,insolvency,2018-12-31,1.0
+14533304,THE MALTHOUSE AT RISHWORTH LTD,dissolved,56101,2022-12-09,2024-02-12,1.18,,0,,,,1,0,0,0,0,0,0,2,voluntary_strike_off,2025-02-11,

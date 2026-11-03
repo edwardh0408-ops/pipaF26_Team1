@@ -1,0 +1,4515 @@
+[
+  {
+    "company_number": "NI656894",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "30",
+          "month": "11"
+        },
+        "last_accounts": {
+          "made_up_to": "2023-11-30",
+          "period_end_on": "2023-11-30",
+          "period_start_on": "2022-12-01",
+          "type": "micro-entity"
+        },
+        "next_accounts": {
+          "due_on": "2025-08-31",
+          "overdue": true,
+          "period_end_on": "2024-11-30",
+          "period_start_on": "2023-12-01"
+        },
+        "next_due": "2025-08-31",
+        "next_made_up_to": "2024-11-30",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "JIANG SWEET CHILLI LTD",
+      "company_number": "NI656894",
+      "company_status": "active",
+      "company_status_detail": "active-proposal-to-strike-off",
+      "confirmation_statement": {
+        "last_made_up_to": "2023-11-05",
+        "next_due": "2024-11-19",
+        "next_made_up_to": "2024-11-05",
+        "overdue": true
+      },
+      "date_of_creation": "2018-11-06",
+      "etag": "11fe3e93f452277cbf5317b1d4a0327b7fe22702",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "northern-ireland",
+      "links": {
+        "persons_with_significant_control": "/company/NI656894/persons-with-significant-control",
+        "self": "/company/NI656894",
+        "filing_history": "/company/NI656894/filing-history",
+        "officers": "/company/NI656894/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "27-29 Belmore Street",
+        "country": "United Kingdom",
+        "locality": "Enniskillen",
+        "postal_code": "BT74 6AA"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQzMzgzMTQzMmFkaXF6a2N4",
+        "barcode": "XDAIHUVU",
+        "type": "AA",
+        "date": "2024-08-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2023-11-30"
+        },
+        "pages": 3,
+        "action_date": "2023-11-30",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzQzMzgzMTQzMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ye_IAyM0DkoAccUSw2Fy4Sz9C26pZQJTyrGvZGCZ6Z0"
+        }
+      },
+      {
+        "transaction_id": "MzQwMjM4NzEwOGFkaXF6a2N4",
+        "barcode": "XCHI9X1T",
+        "type": "CS01",
+        "date": "2023-12-02",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2023-11-05"
+        },
+        "pages": 3,
+        "action_date": "2023-11-05",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzQwMjM4NzEwOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/PSdi5xDlTA-kQtiRPc-texpHfUFrDCqJMCXv3s25t8E"
+        }
+      },
+      {
+        "transaction_id": "MzM4ODY4ODk1NmFkaXF6a2N4",
+        "barcode": "XC97PDG2",
+        "type": "AA",
+        "date": "2023-08-04",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2022-11-30"
+        },
+        "pages": 3,
+        "action_date": "2022-11-30",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzM4ODY4ODk1NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/1UuCtm5fmB_sEcdFyEni_BW6SQpnYTqsnCutJXsdV0k"
+        }
+      },
+      {
+        "transaction_id": "MzM1OTUzNTY2OWFkaXF6a2N4",
+        "barcode": "XBHDQ7NK",
+        "type": "CS01",
+        "date": "2022-11-23",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-11-05"
+        },
+        "pages": 3,
+        "action_date": "2022-11-05",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzM1OTUzNTY2OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/O9iQwP0ESHLVL7NsmsSs5azAIp-5Ab62I5MzrTUygkg"
+        }
+      },
+      {
+        "transaction_id": "MzM0NzQ2NjkwNWFkaXF6a2N4",
+        "barcode": "XB9HOZA3",
+        "type": "AA",
+        "date": "2022-08-01",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2021-11-30"
+        },
+        "pages": 3,
+        "action_date": "2021-11-30",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzM0NzQ2NjkwNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/BNHRVKb2Nz9nrv1TeM-LazPoDrVNSH0QA9Snvo0MF4U"
+        }
+      },
+      {
+        "transaction_id": "MzMyOTQyMzA0MmFkaXF6a2N4",
+        "type": "SOAS(A)",
+        "date": "2022-02-10",
+        "category": "dissolution",
+        "description": "dissolution-voluntary-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/NI656894/filing-history/MzMyOTQyMzA0MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/osLm8xFg7DTK7TINDkwgCaMt1F9XamPTbr2fFomjOrQ"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTM3MTAwN2FkaXF6a2N4",
+        "type": "GAZ1(A)",
+        "date": "2022-01-11",
+        "category": "gazette",
+        "description": "gazette-notice-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/NI656894/filing-history/MzMyNTM3MTAwN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Wh72XTQ2su0zVHyaUaEjC_ezyrpKFAK84wMnv0-lVLk"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTM3MDM5M2FkaXF6a2N4",
+        "barcode": "XAKJ3K4X",
+        "type": "DS01",
+        "date": "2021-12-31",
+        "category": "dissolution",
+        "description": "dissolution-application-strike-off-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/NI656894/filing-history/MzMyNTM3MDM5M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/LScmPptQUmmKLKh5D-zrtcGiXnnGvBbw5-WFEMkO0fs"
+        }
+      },
+      {
+        "transaction_id": "MzMyMTM3ODU2N2FkaXF6a2N4",
+        "barcode": "XAHZUWRD",
+        "type": "CS01",
+        "date": "2021-11-25",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-11-05"
+        },
+        "pages": 3,
+        "action_date": "2021-11-05",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzMyMTM3ODU2N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/LNkFLOtIacpveIA2IJMfzYnnfAnL9PLLxIBzhovarww"
+        }
+      },
+      {
+        "transaction_id": "MzMxMjE3NTMyNGFkaXF6a2N4",
+        "barcode": "XABYJUKZ",
+        "type": "AA",
+        "date": "2021-08-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2020-11-30"
+        },
+        "pages": 3,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzMxMjE3NTMyNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Z9pVyQYuE0pPatGNvFzD4j_pZdBEHVOx0Vy3JZvjyaI"
+        }
+      },
+      {
+        "transaction_id": "MzI4NTEzMjY4MGFkaXF6a2N4",
+        "barcode": "X9J5CM7U",
+        "type": "AA",
+        "date": "2020-12-03",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2019-11-30"
+        },
+        "pages": 3,
+        "action_date": "2019-11-30",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzI4NTEzMjY4MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Ey7Qtd6bhBNH9_0PcYqppWFBwuVOsVPopJgCCGB30Lg"
+        }
+      },
+      {
+        "transaction_id": "MzI4MjY5MzM1MGFkaXF6a2N4",
+        "barcode": "X9H7V5K3",
+        "type": "CS01",
+        "date": "2020-11-06",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-11-05"
+        },
+        "pages": 3,
+        "action_date": "2020-11-05",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzI4MjY5MzM1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/GiMCvcLnP29_MakoWBv1xhfudQY9LHpfPKVcKljZ_AA"
+        }
+      },
+      {
+        "transaction_id": "MzI0ODY4OTUzMWFkaXF6a2N4",
+        "barcode": "X8HO1WGY",
+        "type": "CS01",
+        "date": "2019-11-06",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2019-11-05"
+        },
+        "pages": 3,
+        "action_date": "2019-11-05",
+        "links": {
+          "self": "/company/NI656894/filing-history/MzI0ODY4OTUzMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/q0Pp4t76M3GoncmohdM_Dz3TC5QR6zlGqP1SCQOzfPU"
+        }
+      },
+      {
+        "transaction_id": "MzIxODc4MzMyMWFkaXF6a2N4",
+        "barcode": "X7I5DE61",
+        "type": "NEWINC",
+        "date": "2018-11-06",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2018-11-06",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2018-11-06",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2018-11-06",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "1"
+                }
+              ]
+            },
+            "action_date": "2018-11-06"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 10,
+        "links": {
+          "self": "/company/NI656894/filing-history/MzIxODc4MzMyMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/y7ltJnKWL8dN6khWDsH8FYhIv-2MpTc8Jxnp1kh8x9M"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "80864a545f66a25fb0006fde774ce8292b070726",
+        "address": {
+          "address_line_1": "Belmore Street",
+          "country": "United Kingdom",
+          "locality": "Enniskillen",
+          "postal_code": "BT74 6AA",
+          "premises": "27-29"
+        },
+        "appointed_on": "2018-11-06",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Northern Ireland",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1971
+        },
+        "links": {
+          "self": "/company/NI656894/appointments/yWMQTF3oNNZV-RcMZBCnj8WnTGw",
+          "officer": {
+            "appointments": "/officers/Sooa2nHnrQYl3hH11sDQMfxwaU8/appointments"
+          }
+        },
+        "name": "JIANG, Tuping",
+        "nationality": "Irish",
+        "officer_role": "director",
+        "person_number": "252215950001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "NI667102",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "31",
+          "month": "01"
+        },
+        "last_accounts": {
+          "made_up_to": "2021-01-31",
+          "period_end_on": "2021-01-31",
+          "period_start_on": "2020-01-20",
+          "type": "micro-entity"
+        },
+        "next_accounts": {
+          "due_on": "2023-01-31",
+          "overdue": true,
+          "period_end_on": "2022-01-31",
+          "period_start_on": "2021-02-01"
+        },
+        "next_due": "2023-01-31",
+        "next_made_up_to": "2022-01-31",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "JN CATERING AND EVENTS LTD",
+      "company_number": "NI667102",
+      "company_status": "active",
+      "company_status_detail": "active-proposal-to-strike-off",
+      "confirmation_statement": {
+        "last_made_up_to": "2022-01-19",
+        "next_due": "2023-02-02",
+        "next_made_up_to": "2023-01-19",
+        "overdue": true
+      },
+      "date_of_creation": "2020-01-20",
+      "etag": "a154b78e7b823c55c98399928e1c0e48720c92f0",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "northern-ireland",
+      "links": {
+        "persons_with_significant_control": "/company/NI667102/persons-with-significant-control",
+        "self": "/company/NI667102",
+        "filing_history": "/company/NI667102/filing-history",
+        "officers": "/company/NI667102/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "81 Eglantine Park",
+        "country": "Northern Ireland",
+        "locality": "Hillsborough",
+        "postal_code": "BT26 6HL"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101",
+        "56210"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzM3OTE2NjMyNmFkaXF6a2N4",
+        "type": "DISS16(SOAS)",
+        "date": "2023-05-11",
+        "category": "dissolution",
+        "description": "dissolved-compulsory-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/NI667102/filing-history/MzM3OTE2NjMyNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/5dEbjtzVn1yq-Wb6pxvDkL7qiZU50kFxNclx2VELNzs"
+        }
+      },
+      {
+        "transaction_id": "MzM3MzcyNjQ3MGFkaXF6a2N4",
+        "type": "GAZ1",
+        "date": "2023-04-04",
+        "category": "gazette",
+        "description": "gazette-notice-compulsory",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/NI667102/filing-history/MzM3MzcyNjQ3MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/m6xl9_VEApUQmxawGRnN6whqFUtZDSvUqk_vx9W7oNA"
+        }
+      },
+      {
+        "transaction_id": "MzMyODY0MTMzOGFkaXF6a2N4",
+        "barcode": "XAWYM9SQ",
+        "type": "CS01",
+        "date": "2022-02-02",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-01-19"
+        },
+        "pages": 3,
+        "action_date": "2022-01-19",
+        "links": {
+          "self": "/company/NI667102/filing-history/MzMyODY0MTMzOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/lm8swhqMrch2Zl5SvOWkMchtltlxfEEpEWejf19Nq6Q"
+        }
+      },
+      {
+        "transaction_id": "MzMyNzMyNTEyOGFkaXF6a2N4",
+        "barcode": "XAW2EBS9",
+        "type": "AA",
+        "date": "2022-01-20",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2021-01-31"
+        },
+        "pages": 3,
+        "action_date": "2021-01-31",
+        "links": {
+          "self": "/company/NI667102/filing-history/MzMyNzMyNTEyOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/sqhFCDyM-eaxrPR1NpPeZx99QMvMImktslVrUXyE6kw"
+        }
+      },
+      {
+        "transaction_id": "MzI5MjkzNTMzOGFkaXF6a2N4",
+        "barcode": "X9ZCQENC",
+        "type": "CS01",
+        "date": "2021-03-01",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-01-19"
+        },
+        "pages": 3,
+        "action_date": "2021-01-19",
+        "links": {
+          "self": "/company/NI667102/filing-history/MzI5MjkzNTMzOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/sxtjVHy4bpxKtNLfbxeP4X6L-bd3djeeJM24Bv-uL38"
+        }
+      },
+      {
+        "transaction_id": "MzI1NDkxNzcxNGFkaXF6a2N4",
+        "barcode": "X8WYBHV5",
+        "type": "NEWINC",
+        "date": "2020-01-20",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2020-01-20",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2020-01-20",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2020-01-20",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "1"
+                }
+              ]
+            },
+            "action_date": "2020-01-20"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 10,
+        "links": {
+          "self": "/company/NI667102/filing-history/MzI1NDkxNzcxNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/2e5l3-ojBGG-bZZ7Nbw90_qO27tzMy3QixxhZEn_tO8"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "3c656ba6f7e786557c7549803fc05169385940eb",
+        "address": {
+          "address_line_1": "Eglantine Park",
+          "country": "Northern Ireland",
+          "locality": "Hillsborough",
+          "postal_code": "BT26 6HL",
+          "premises": "81"
+        },
+        "appointed_on": "2020-01-20",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Northern Ireland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1981
+        },
+        "links": {
+          "self": "/company/NI667102/appointments/GF705mH8ugbKKg15-VknMf1qHwU",
+          "officer": {
+            "appointments": "/officers/x39g2VNWWc_eRJ3XylMDd0X70d8/appointments"
+          }
+        },
+        "name": "NEILLY, Samuel Kenneth James",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "266243750001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "SC649769",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "31",
+          "month": "12"
+        },
+        "last_accounts": {
+          "made_up_to": "2020-12-31",
+          "period_end_on": "2020-12-31",
+          "period_start_on": "2019-12-16",
+          "type": "micro-entity"
+        },
+        "next_accounts": {
+          "due_on": "2022-09-30",
+          "overdue": true,
+          "period_end_on": "2021-12-31",
+          "period_start_on": "2021-01-01"
+        },
+        "next_due": "2022-09-30",
+        "next_made_up_to": "2021-12-31",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "GOOD FOOD FROM NAPLES LTD",
+      "company_number": "SC649769",
+      "company_status": "active",
+      "company_status_detail": "active-proposal-to-strike-off",
+      "confirmation_statement": {
+        "last_made_up_to": "2021-11-20",
+        "next_due": "2022-12-04",
+        "next_made_up_to": "2022-11-20",
+        "overdue": true
+      },
+      "date_of_creation": "2019-12-16",
+      "etag": "b8797186fc8ba8c2a114e4d536065a873da89481",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "scotland",
+      "links": {
+        "persons_with_significant_control": "/company/SC649769/persons-with-significant-control",
+        "self": "/company/SC649769",
+        "filing_history": "/company/SC649769/filing-history",
+        "officers": "/company/SC649769/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "102 Dalry Road Dalry Road",
+        "country": "Scotland",
+        "locality": "Edinburgh",
+        "postal_code": "EH11 2DW"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzM0NTMzOTcyMWFkaXF6a2N4",
+        "type": "SOAS(A)",
+        "date": "2022-07-13",
+        "category": "dissolution",
+        "description": "dissolution-voluntary-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/SC649769/filing-history/MzM0NTMzOTcyMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/j1CMmMo-TtQTn25wcpqr2819egQWzSc9XIGtqJZwq-M"
+        }
+      },
+      {
+        "transaction_id": "MzM0MjM0NzUxOGFkaXF6a2N4",
+        "type": "GAZ1(A)",
+        "date": "2022-06-21",
+        "category": "gazette",
+        "description": "gazette-notice-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/SC649769/filing-history/MzM0MjM0NzUxOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/qBz4Sg1LMt6rFsSX-RXx_4nE8kl5kU1JEhC-2k2u9qo"
+        }
+      },
+      {
+        "transaction_id": "MzM0MjMzMjYxMGFkaXF6a2N4",
+        "barcode": "XB61X3EA",
+        "type": "DS01",
+        "date": "2022-06-13",
+        "category": "dissolution",
+        "description": "dissolution-application-strike-off-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/SC649769/filing-history/MzM0MjMzMjYxMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/fC5jC6BBI-bQL9IfrWTwmjYprRE722A29FhXD9yIQiE"
+        }
+      },
+      {
+        "transaction_id": "MzMyMDc3MzU3NWFkaXF6a2N4",
+        "barcode": "XAHOY342",
+        "type": "CS01",
+        "date": "2021-11-20",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-11-20"
+        },
+        "pages": 3,
+        "action_date": "2021-11-20",
+        "links": {
+          "self": "/company/SC649769/filing-history/MzMyMDc3MzU3NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/UFJRLSVUn6fV2QPjgw1GDem8WN_Ly6RsVs48jMn4Y9w"
+        }
+      },
+      {
+        "transaction_id": "MzMxMTI4OTQ2NGFkaXF6a2N4",
+        "barcode": "XABARBIX",
+        "type": "AA",
+        "date": "2021-08-20",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2020-12-31"
+        },
+        "pages": 3,
+        "action_date": "2020-12-31",
+        "links": {
+          "self": "/company/SC649769/filing-history/MzMxMTI4OTQ2NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/3RaRTLOr9T4vIsyzzwDxX0tY-Uzgc2RQ8MF3N9qrcGE"
+        }
+      },
+      {
+        "transaction_id": "MzI4ODg3NzExMGFkaXF6a2N4",
+        "barcode": "X9WG42NU",
+        "type": "CS01",
+        "date": "2021-01-18",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-12-15"
+        },
+        "pages": 3,
+        "action_date": "2020-12-15",
+        "links": {
+          "self": "/company/SC649769/filing-history/MzI4ODg3NzExMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/t8YXxMvxQoROWY3qmAFiZiUIcLLCBARKd1s4xzhUAVA"
+        }
+      },
+      {
+        "transaction_id": "MzI1MjIzNzM5OWFkaXF6a2N4",
+        "barcode": "X8KEHLIY",
+        "type": "NEWINC",
+        "date": "2019-12-16",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2019-12-16",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2019-12-16",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2019-12-16",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "1"
+                }
+              ]
+            },
+            "action_date": "2019-12-16"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 10,
+        "links": {
+          "self": "/company/SC649769/filing-history/MzI1MjIzNzM5OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/osNQ1BTneCNDMwM9wge9SMbwE4ItmQ2Vl5AvayCapJQ"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "fb8ada8533afa08673b96901c983046767920518",
+        "address": {
+          "address_line_1": "Dalry Road",
+          "country": "Scotland",
+          "locality": "Edinburgh",
+          "postal_code": "EH11 2DW",
+          "premises": "102 Dalry Road"
+        },
+        "appointed_on": "2019-12-16",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1973
+        },
+        "links": {
+          "self": "/company/SC649769/appointments/NQgnI3b_ysEab2S3PxT1SEB0fKA",
+          "officer": {
+            "appointments": "/officers/kZku-HIYN4s2KFcLafaDSQ506f0/appointments"
+          }
+        },
+        "name": "PINELLI, Raffaele",
+        "nationality": "Italian",
+        "officer_role": "director",
+        "person_number": "265373450001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "12325682",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "30",
+          "month": "11"
+        },
+        "last_accounts": {
+          "made_up_to": "2022-11-30",
+          "period_end_on": "2022-11-30",
+          "period_start_on": "2021-12-01",
+          "type": "micro-entity"
+        },
+        "next_accounts": {
+          "due_on": "2024-08-31",
+          "overdue": true,
+          "period_end_on": "2023-11-30",
+          "period_start_on": "2022-12-01"
+        },
+        "next_due": "2024-08-31",
+        "next_made_up_to": "2023-11-30",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "ELLY'S CUISINE LTD",
+      "company_number": "12325682",
+      "company_status": "active",
+      "company_status_detail": "active-proposal-to-strike-off",
+      "confirmation_statement": {
+        "last_made_up_to": "2023-01-27",
+        "next_due": "2024-02-10",
+        "next_made_up_to": "2024-01-27",
+        "overdue": true
+      },
+      "date_of_creation": "2019-11-20",
+      "etag": "8e0ecf802f21d3e40487289931c58c3e76ba4f75",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/12325682/persons-with-significant-control",
+        "self": "/company/12325682",
+        "filing_history": "/company/12325682/filing-history",
+        "officers": "/company/12325682/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "27 Pannier Place",
+        "address_line_2": "Downs Barn",
+        "country": "United Kingdom",
+        "locality": "Milton Keynes",
+        "postal_code": "MK14 7QJ"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQyMTgxNjg4OGFkaXF6a2N4",
+        "type": "DISS16(SOAS)",
+        "date": "2024-05-15",
+        "category": "dissolution",
+        "description": "dissolved-compulsory-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/12325682/filing-history/MzQyMTgxNjg4OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/F5B-R7NW-gL8S27Z5sABJDacjihQSW5isRAOFzEEiL8"
+        }
+      },
+      {
+        "transaction_id": "MzQxNzc0MjUyN2FkaXF6a2N4",
+        "type": "GAZ1",
+        "date": "2024-04-23",
+        "category": "gazette",
+        "description": "gazette-notice-compulsory",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/12325682/filing-history/MzQxNzc0MjUyN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/juSTmwRZ6GGn1hD0QfUYxr0pvPv_yQ-rapWRyhkwHGg"
+        }
+      },
+      {
+        "transaction_id": "MzM5MTEzMDE0NWFkaXF6a2N4",
+        "barcode": "XCAWW4FM",
+        "type": "AA",
+        "date": "2023-08-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2022-11-30"
+        },
+        "pages": 3,
+        "action_date": "2022-11-30",
+        "links": {
+          "self": "/company/12325682/filing-history/MzM5MTEzMDE0NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/nUo19E7X_WYjukuUgPVjDuKooY8SACW1X6nXa93URJc"
+        }
+      },
+      {
+        "transaction_id": "MzM3MzMwMDc2NmFkaXF6a2N4",
+        "barcode": "XBZPVDNN",
+        "type": "CS01",
+        "date": "2023-03-20",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2023-01-27"
+        },
+        "pages": 3,
+        "action_date": "2023-01-27",
+        "links": {
+          "self": "/company/12325682/filing-history/MzM3MzMwMDc2NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/JHbhVqYodH3fXrL2q1yGeKW5RC1anHarSUGrOemE1p4"
+        }
+      },
+      {
+        "transaction_id": "MzM1MDM2NjE3NmFkaXF6a2N4",
+        "barcode": "XBBKDXC2",
+        "type": "AA",
+        "date": "2022-08-31",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2021-11-30"
+        },
+        "pages": 3,
+        "action_date": "2021-11-30",
+        "links": {
+          "self": "/company/12325682/filing-history/MzM1MDM2NjE3NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/uwdAgWsHoxQyNrSkebVbh_Sd-C5jnWVq3J6gSKrxNi0"
+        }
+      },
+      {
+        "transaction_id": "MzMyOTkyNzQwMGFkaXF6a2N4",
+        "barcode": "XAXX9QSW",
+        "type": "CS01",
+        "date": "2022-02-15",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-01-27"
+        },
+        "pages": 3,
+        "action_date": "2022-01-27",
+        "links": {
+          "self": "/company/12325682/filing-history/MzMyOTkyNzQwMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/BMPxrduCM4-xMTgSz3UbJN6Hn-bRTlDycFQwIITblCM"
+        }
+      },
+      {
+        "transaction_id": "MzMxMTI5MDk0MGFkaXF6a2N4",
+        "barcode": "XABARHUP",
+        "type": "AA",
+        "date": "2021-08-20",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2020-11-30"
+        },
+        "pages": 3,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/12325682/filing-history/MzMxMTI5MDk0MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ytD_lHRbOrt-3bOgWmav4ifBnHCpXUFHI6lmfbiVmvo"
+        }
+      },
+      {
+        "transaction_id": "MzI5MzM1MDQwOWFkaXF6a2N4",
+        "barcode": "X9ZKXAVF",
+        "type": "CS01",
+        "date": "2021-03-04",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-01-27"
+        },
+        "pages": 3,
+        "action_date": "2021-01-27",
+        "links": {
+          "self": "/company/12325682/filing-history/MzI5MzM1MDQwOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/wIB54Nvf2I9VhnYjNbeLO4Wc2j2u2AvMZjhBI38h8LM"
+        }
+      },
+      {
+        "transaction_id": "MzI1NTYyMzk4NmFkaXF6a2N4",
+        "barcode": "X8XJFL54",
+        "type": "CS01",
+        "date": "2020-01-27",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-01-27"
+        },
+        "pages": 4,
+        "action_date": "2020-01-27",
+        "links": {
+          "self": "/company/12325682/filing-history/MzI1NTYyMzk4NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/4w2E4VhKv7F1G0rX9ODDFkBC9AWr4tSqltoh0_Ko7RE"
+        }
+      },
+      {
+        "transaction_id": "MzI1NTA4OTQ3OWFkaXF6a2N4",
+        "barcode": "X8X3O99N",
+        "type": "CS01",
+        "date": "2020-01-21",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-01-21"
+        },
+        "pages": 4,
+        "action_date": "2020-01-21",
+        "links": {
+          "self": "/company/12325682/filing-history/MzI1NTA4OTQ3OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9NPa9MdMBl8_-Yq4DtZDrp4_X_HGhN2YiMeBxar7GRY"
+        }
+      },
+      {
+        "transaction_id": "MzI1NDQ0MDM4MGFkaXF6a2N4",
+        "barcode": "X8WKZERK",
+        "type": "CH01",
+        "date": "2020-01-13",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-01-13",
+          "officer_name": "Ms Laura Dediu"
+        },
+        "pages": 2,
+        "action_date": "2020-01-13",
+        "links": {
+          "self": "/company/12325682/filing-history/MzI1NDQ0MDM4MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/h6Gskecv-BHokWWhEES6atc-3Ei2ySMOCPlrTR24IkY"
+        }
+      },
+      {
+        "transaction_id": "MzI1NDQ0MDI3MGFkaXF6a2N4",
+        "barcode": "X8WKZEEI",
+        "type": "PSC04",
+        "date": "2020-01-13",
+        "category": "persons-with-significant-control",
+        "subcategory": "change",
+        "description": "change-to-a-person-with-significant-control",
+        "description_values": {
+          "change_date": "2019-11-20",
+          "psc_name": "Ms Laura Dediu"
+        },
+        "pages": 2,
+        "action_date": "2019-11-20",
+        "links": {
+          "self": "/company/12325682/filing-history/MzI1NDQ0MDI3MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/eH6G7nDSZmsd1lJpTf29LCo5V_TQBlGZjHg0s5nC_Xs"
+        }
+      },
+      {
+        "transaction_id": "MzI0OTgwNDg5OGFkaXF6a2N4",
+        "barcode": "X8IMHUCG",
+        "type": "NEWINC",
+        "date": "2019-11-20",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "capital",
+            "date": "2019-11-20",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2019-11-20",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "100"
+                }
+              ]
+            },
+            "action_date": "2019-11-20"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 29,
+        "links": {
+          "self": "/company/12325682/filing-history/MzI0OTgwNDg5OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/X1OC04Lwp3bmmrB3q5ztPMEloSjb6daSDgQJUl5bHX4"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "2341d6096a490788ed9aba1a54a926713412b30c",
+        "address": {
+          "address_line_1": "Pannier Place",
+          "address_line_2": "Downs Barn",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK14 7QJ",
+          "premises": "27"
+        },
+        "appointed_on": "2019-11-20",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "links": {
+          "self": "/company/12325682/appointments/EI_kluSjCS0c7cBhhYcJmBSqc4Y",
+          "officer": {
+            "appointments": "/officers/6g0CoFlw8sERGzej9YJU19duRhA/appointments"
+          }
+        },
+        "name": "DENDIU, Laura",
+        "nationality": "Romanian",
+        "officer_role": "director",
+        "person_number": "264576270002",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "11837902",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "28",
+          "month": "02"
+        },
+        "last_accounts": {
+          "made_up_to": "2020-02-29",
+          "period_end_on": "2020-02-29",
+          "period_start_on": "2019-02-20",
+          "type": "total-exemption-full"
+        },
+        "next_accounts": {
+          "due_on": "2021-11-30",
+          "overdue": true,
+          "period_end_on": "2021-02-28",
+          "period_start_on": "2020-03-01"
+        },
+        "next_due": "2021-11-30",
+        "next_made_up_to": "2021-02-28",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "SPICE CAPITAL RESTAURANT LTD",
+      "company_number": "11837902",
+      "company_status": "liquidation",
+      "confirmation_statement": {
+        "last_made_up_to": "2021-02-13",
+        "next_due": "2022-02-27",
+        "next_made_up_to": "2022-02-13",
+        "overdue": true
+      },
+      "date_of_creation": "2019-02-20",
+      "etag": "6cbd6819581c44e9c5644369883fb260733f780f",
+      "has_charges": false,
+      "has_insolvency_history": true,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/11837902/persons-with-significant-control",
+        "self": "/company/11837902",
+        "filing_history": "/company/11837902/filing-history",
+        "insolvency": "/company/11837902/insolvency",
+        "officers": "/company/11837902/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "Cba Business Solutions Ltd",
+        "address_line_2": "126 New Walk",
+        "locality": "Leicester",
+        "postal_code": "LE1 7JA"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzUyNjM5NTAxMGFkaXF6a2N4",
+        "barcode": "YF4166Y0",
+        "type": "LIQ03",
+        "date": "2026-06-24",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2026-04-25"
+        },
+        "pages": 13,
+        "action_date": "2026-04-25",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzUyNjM5NTAxMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/rTnvghEeAg0CL3PsJCQruzOKBNdecWrTJ-s27uUvTMA"
+        }
+      },
+      {
+        "transaction_id": "MzQ3MDA2NDExMmFkaXF6a2N4",
+        "barcode": "YE4NO44B",
+        "type": "LIQ03",
+        "date": "2025-06-17",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2025-04-25"
+        },
+        "pages": 11,
+        "action_date": "2025-04-25",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzQ3MDA2NDExMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/l1txp7JMgxrezfpT9HrVaonvShX0uDVaDspcijQr2X0"
+        }
+      },
+      {
+        "transaction_id": "MzQyNTcyMzgwNmFkaXF6a2N4",
+        "barcode": "YD5I5X57",
+        "type": "LIQ03",
+        "date": "2024-06-23",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2024-04-25"
+        },
+        "pages": 10,
+        "action_date": "2024-04-25",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzQyNTcyMzgwNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/a2AC0H8LenSE79orUCXqd-5fTBtHHCkSVq_4JVl8gQk"
+        }
+      },
+      {
+        "transaction_id": "MzM3ODIxODQ0M2FkaXF6a2N4",
+        "barcode": "YC2PQK40",
+        "type": "AD01",
+        "date": "2023-05-11",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2023-05-11",
+          "old_address": "322 Platt Lane Manchester M14 7DA United Kingdom",
+          "new_address": "Cba Business Solutions Ltd 126 New Walk Leicester LE1 7JA"
+        },
+        "pages": 2,
+        "action_date": "2023-05-11",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzM3ODIxODQ0M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/KFrdgzFgu7nKrKBrtlOj8LNBn87qCicMesDOjTPCPS0"
+        }
+      },
+      {
+        "transaction_id": "MzM3ODIxODM2OWFkaXF6a2N4",
+        "barcode": "YC2PQJH7",
+        "type": "LIQ02",
+        "date": "2023-05-11",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-affairs",
+        "pages": 9,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzM3ODIxODM2OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/8T-Lpi5p4SR4Tw_HwKhb6UsV0P4rqX4_cSpmBxT6rgg"
+        }
+      },
+      {
+        "transaction_id": "MzM3ODIxODM2NmFkaXF6a2N4",
+        "barcode": "YC2PQJTU",
+        "type": "600",
+        "date": "2023-05-11",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-appointment-of-liquidator",
+        "pages": 3,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzM3ODIxODM2NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9Vt1j5GsUWkkNUDP5VlcE5ZjlOGStn7zhB_G3S8ccFY"
+        }
+      },
+      {
+        "transaction_id": "WUMyUFFLMjBhZGlxemtjeA",
+        "type": "RESOLUTIONS",
+        "date": "2023-05-11",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "liquidation",
+            "description": "liquidation-voluntary-extraordinary-resolution-to-wind-up-with-case-start-date",
+            "type": "LRESEX",
+            "subcategory": [
+              "voluntary",
+              "resolution"
+            ],
+            "description_values": {
+              "case_start_date": "2023-04-26"
+            },
+            "original_description": "Extraordinary resolution to wind up"
+          }
+        ],
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/WUMyUFFLMjBhZGlxemtjeA",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/eyckaymHt0fytIcEnVOcHOKxtHHHhdepmYLuUaThNCI"
+        }
+      },
+      {
+        "transaction_id": "MzMzMjM2NDc2MmFkaXF6a2N4",
+        "type": "DISS16(SOAS)",
+        "date": "2022-03-10",
+        "category": "dissolution",
+        "description": "dissolved-compulsory-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzMzMjM2NDc2MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/qQ9VZjPjlVPgCteYDsBEO3lYs8IgmpAEQ0RDqlq01rs"
+        }
+      },
+      {
+        "transaction_id": "MzMyNzM2MjQ2MmFkaXF6a2N4",
+        "type": "GAZ1",
+        "date": "2022-02-01",
+        "category": "gazette",
+        "description": "gazette-notice-compulsory",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11837902/filing-history/MzMyNzM2MjQ2MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/3YYNJDePBTmoluKkvEDzbjxNJpecKL0-Ck6VLJIkC9w"
+        }
+      },
+      {
+        "transaction_id": "MzI5MjY4ODczNmFkaXF6a2N4",
+        "barcode": "X9Z4N7Y8",
+        "type": "CS01",
+        "date": "2021-02-26",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-02-13"
+        },
+        "pages": 3,
+        "action_date": "2021-02-13",
+        "links": {
+          "self": "/company/11837902/filing-history/MzI5MjY4ODczNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/gAOB6Wa5SjOUYdhA25Kke_bUufs5myXf0hGasKWW0X0"
+        }
+      },
+      {
+        "transaction_id": "MzI5MTU0MTE1MGFkaXF6a2N4",
+        "barcode": "X9YGE03C",
+        "type": "AA",
+        "date": "2021-02-16",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2020-02-29"
+        },
+        "pages": 7,
+        "action_date": "2020-02-29",
+        "links": {
+          "self": "/company/11837902/filing-history/MzI5MTU0MTE1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/1QxXsVWBlyod_4uW9of_86ZzEk3SbW6aMHTDh11gGXM"
+        }
+      },
+      {
+        "transaction_id": "MzI1NzE2NjYyMmFkaXF6a2N4",
+        "barcode": "X8YQ6EJN",
+        "type": "CS01",
+        "date": "2020-02-13",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-02-13"
+        },
+        "pages": 3,
+        "action_date": "2020-02-13",
+        "links": {
+          "self": "/company/11837902/filing-history/MzI1NzE2NjYyMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/sR0XO-MxoBJllaPTrNRpQoG2KEHXsIHt-tGrov0RHKE"
+        }
+      },
+      {
+        "transaction_id": "MzIyNzMzNTM5NGFkaXF6a2N4",
+        "barcode": "X7ZMW2BD",
+        "type": "NEWINC",
+        "date": "2019-02-20",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2019-02-20",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2019-02-20",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2019-02-20",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "100"
+                }
+              ]
+            },
+            "action_date": "2019-02-20"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 10,
+        "links": {
+          "self": "/company/11837902/filing-history/MzIyNzMzNTM5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/YqqAKROFBhp1-k8AeNg4yl_WCjhXF7yRHQ2_73tH5tg"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "1bb3123bc93a996b8f89ed5f368725ac0db1df6d",
+        "address": {
+          "address_line_1": "Otto Terrace",
+          "country": "United Kingdom",
+          "locality": "Sunderland",
+          "postal_code": "SR2 7LP",
+          "premises": "67"
+        },
+        "appointed_on": "2019-02-20",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "links": {
+          "self": "/company/11837902/appointments/LSQw9C6sEeN1yzjSwQdfTanlBQg",
+          "officer": {
+            "appointments": "/officers/Yuwxmo9sBUcMIptpnHeYBfsIqOQ/appointments"
+          }
+        },
+        "name": "MIAH, Shibir",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "140317690001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "11562953",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "30",
+          "month": "09"
+        },
+        "last_accounts": {
+          "made_up_to": "2020-09-30",
+          "period_end_on": "2020-09-30",
+          "period_start_on": "2019-10-01",
+          "type": "micro-entity"
+        },
+        "next_accounts": {
+          "due_on": "2022-06-30",
+          "overdue": true,
+          "period_end_on": "2021-09-30",
+          "period_start_on": "2020-10-01"
+        },
+        "next_due": "2022-06-30",
+        "next_made_up_to": "2021-09-30",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "THE STUFFED OLIVE LIMITED",
+      "company_number": "11562953",
+      "company_status": "liquidation",
+      "confirmation_statement": {
+        "last_made_up_to": "2021-11-30",
+        "next_due": "2022-12-14",
+        "next_made_up_to": "2022-11-30",
+        "overdue": true
+      },
+      "date_of_creation": "2018-09-11",
+      "etag": "8801d51f24b5b1ded2a9d689059f1b8d35c73476",
+      "has_charges": false,
+      "has_insolvency_history": true,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/11562953/persons-with-significant-control",
+        "self": "/company/11562953",
+        "filing_history": "/company/11562953/filing-history",
+        "insolvency": "/company/11562953/insolvency",
+        "officers": "/company/11562953/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "C/O Business Rescue Expert",
+        "address_line_2": "49 Duke Street",
+        "locality": "Darlington",
+        "postal_code": "DL3 7SD"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQ4NzgwMjUzM2FkaXF6a2N4",
+        "barcode": "YEETZCJT",
+        "type": "LIQ03",
+        "date": "2025-11-10",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2025-09-19"
+        },
+        "pages": 21,
+        "action_date": "2025-09-19",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzQ4NzgwMjUzM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/qR_vYYyvY_sGDHBO--UQv5clXe4rs5PqdpIePC8lDTg"
+        }
+      },
+      {
+        "transaction_id": "MzQ0MjU4NjM4OWFkaXF6a2N4",
+        "barcode": "YDFM9WBF",
+        "type": "LIQ03",
+        "date": "2024-11-14",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2024-09-19"
+        },
+        "pages": 16,
+        "action_date": "2024-09-19",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzQ0MjU4NjM4OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/M6S18hJNBthoSAYoMkmb1m8_e9Gq33CtFctTC3UYK1Y"
+        }
+      },
+      {
+        "transaction_id": "MzM5NTIyODY5N2FkaXF6a2N4",
+        "barcode": "YCDDUR7V",
+        "type": "LIQ03",
+        "date": "2023-10-12",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2023-09-19"
+        },
+        "pages": 16,
+        "action_date": "2023-09-19",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzM5NTIyODY5N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/KnwQv7ZLWc4KZoNEcscS18uGryjG3WnFE7Vxl5jSze4"
+        }
+      },
+      {
+        "transaction_id": "WUJENDdLTVdhZGlxemtjeA",
+        "type": "RESOLUTIONS",
+        "date": "2022-09-29",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "liquidation",
+            "description": "liquidation-voluntary-extraordinary-resolution-to-wind-up-with-case-start-date",
+            "type": "LRESEX",
+            "subcategory": [
+              "voluntary",
+              "resolution"
+            ],
+            "description_values": {
+              "case_start_date": "2022-09-20"
+            },
+            "original_description": "Extraordinary resolution to wind up"
+          }
+        ],
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/WUJENDdLTVdhZGlxemtjeA",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/tcTyTPiSG8VyrcEvaQygX3yds-Bcx1a4TQo01oMuQcE"
+        }
+      },
+      {
+        "transaction_id": "MzM1MjYyODM3MWFkaXF6a2N4",
+        "barcode": "YBD47YQO",
+        "type": "AD01",
+        "date": "2022-09-28",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2022-09-28",
+          "old_address": "8 Lordsmill Street Chesterfield S41 7RW England",
+          "new_address": "C/O Business Rescue Expert 49 Duke Street Darlington DL3 7SD"
+        },
+        "pages": 2,
+        "action_date": "2022-09-28",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzM1MjYyODM3MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/1gkIxAPjtl_fNtEPyOc_lLi6arY0R6HVDGlH4TfdwzE"
+        }
+      },
+      {
+        "transaction_id": "MzM1MjYyNjU2N2FkaXF6a2N4",
+        "barcode": "YBD47RBD",
+        "type": "600",
+        "date": "2022-09-28",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-appointment-of-liquidator",
+        "pages": 3,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzM1MjYyNjU2N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/bOBhJn2phEdjjaOiXwMt_vwLnaxxSXLYkd98qWjkH2A"
+        }
+      },
+      {
+        "transaction_id": "MzM1MjYyNTQzNWFkaXF6a2N4",
+        "barcode": "YBD47MW3",
+        "type": "LIQ02",
+        "date": "2022-09-28",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-affairs",
+        "pages": 9,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzM1MjYyNTQzNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/rrFf9crergwBIcIgOa5PnYaZr-sMtPqFYLzmxU53XYE"
+        }
+      },
+      {
+        "transaction_id": "MzMzMjM2MDMwN2FkaXF6a2N4",
+        "type": "SOAS(A)",
+        "date": "2022-03-10",
+        "category": "dissolution",
+        "description": "dissolution-voluntary-strike-off-suspended",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzMzMjM2MDMwN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Qam1_PcuVStmeCYPWP_XQgnTndRNsdkqFPZC1m2GF54"
+        }
+      },
+      {
+        "transaction_id": "MzMyODY0NzgyOGFkaXF6a2N4",
+        "type": "GAZ1(A)",
+        "date": "2022-02-15",
+        "category": "gazette",
+        "description": "gazette-notice-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11562953/filing-history/MzMyODY0NzgyOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/A28vwI_t9Rg7ynkYXUAD2nKlv1KRqp87ZiWeYsKancI"
+        }
+      },
+      {
+        "transaction_id": "MzMyODY0NzE5NWFkaXF6a2N4",
+        "barcode": "XAWYMUG2",
+        "type": "DS01",
+        "date": "2022-02-02",
+        "category": "dissolution",
+        "description": "dissolution-application-strike-off-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/11562953/filing-history/MzMyODY0NzE5NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/unINhDhKSc63RcMBqPyq13csh66-cjUKx5uKTwKv_v0"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTI0Mjk2MmFkaXF6a2N4",
+        "barcode": "XAKGEPRC",
+        "type": "CS01",
+        "date": "2021-12-30",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-11-30"
+        },
+        "pages": 3,
+        "action_date": "2021-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzMyNTI0Mjk2MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/kqhj6w83Xd6E2QMms_VkwzZlCso7TXdYEM5Fw9fvVf0"
+        }
+      },
+      {
+        "transaction_id": "MzMwMjM4NjM3N2FkaXF6a2N4",
+        "barcode": "XA5CJIYA",
+        "type": "AA",
+        "date": "2021-05-26",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2020-09-30"
+        },
+        "pages": 3,
+        "action_date": "2020-09-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzMwMjM4NjM3N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/jI43AXRixM5QRftpunW13xgV-gNL7aSsYcZMhZQZsQU"
+        }
+      },
+      {
+        "transaction_id": "MzI4NjMxODI1OWFkaXF6a2N4",
+        "barcode": "X9K43E7N",
+        "type": "PSC07",
+        "date": "2020-12-17",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "cessation_date": "2020-11-26"
+        },
+        "pages": 1,
+        "action_date": "2020-11-26",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NjMxODI1OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/LEKnSDibX8q7ePvqyuGBLdky_-SupChs5SZTVnhnwoQ"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNjk5NGFkaXF6a2N4",
+        "barcode": "X9IX47LS",
+        "type": "CS01",
+        "date": "2020-11-30",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-11-30"
+        },
+        "pages": 4,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNjk5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Aj2ewkIvn_D_ea-0ExkjB__Sxgr_guilBYPIA4OnDQg"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNjk5NWFkaXF6a2N4",
+        "barcode": "X9IX47J4",
+        "type": "PSC01",
+        "date": "2020-11-30",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Yuksel Albas",
+          "notification_date": "2020-11-30"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNjk5NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/SpN_G76k7eP6u7E4cMd6KRB2fMF5O5vqmaa15ajaWK4"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNjY2MWFkaXF6a2N4",
+        "barcode": "X9IX46DM",
+        "type": "AP01",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Yuksel Albas",
+          "appointment_date": "2020-11-30"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNjY2MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/4UxLRkCCAN-axYZyOtUu4bKFXgLgkUk1D9vMX5exMvk"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNjYxMGFkaXF6a2N4",
+        "barcode": "X9IX45YO",
+        "type": "AP03",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Yuksel Albas",
+          "appointment_date": "2020-11-30"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNjYxMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/BoZo44tCbc3XrmC7wOljwpa73ycH0pUQxCzsnWVpCRo"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNTY1NWFkaXF6a2N4",
+        "barcode": "X9IX41QA",
+        "type": "TM01",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2020-11-30"
+        },
+        "pages": 1,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNTY1NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/LsyIYjzxbLZc9TAOeE8OArnVMJrT-UUxbM_oc-ea3xg"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDczNTQyMWFkaXF6a2N4",
+        "barcode": "X9IX415N",
+        "type": "TM02",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2020-11-30"
+        },
+        "pages": 1,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDczNTQyMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/zc5nGMZKHpxv5FUAzY4T1kyt4BMTts4kVbZ0lwB2hIY"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTk0NmFkaXF6a2N4",
+        "barcode": "X9IJWOX6",
+        "type": "CS01",
+        "date": "2020-11-25",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-11-25"
+        },
+        "pages": 4,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTk0NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/cnsFpcBppPTo8bJHB6XalpLWcLBdzVJdtHbBIqXyDBA"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTgxOWFkaXF6a2N4",
+        "barcode": "X9IJWP5T",
+        "type": "PSC01",
+        "date": "2020-11-25",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "notification_date": "2020-11-25"
+        },
+        "pages": 2,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTgxOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9EUX3WQLF6OnjvKsDtfT_A-nrXw_zIoSa42eTh-rA0Q"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTYwN2FkaXF6a2N4",
+        "barcode": "X9IJWNTC",
+        "type": "AP03",
+        "date": "2020-11-25",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2020-11-25"
+        },
+        "pages": 2,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTYwN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/LCDlCkf1jbE5O1bWiMuUb7lZmwGm051AEDhteqaZDok"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTQ1M2FkaXF6a2N4",
+        "barcode": "X9IJWN3K",
+        "type": "AP01",
+        "date": "2020-11-25",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2020-11-25"
+        },
+        "pages": 2,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTQ1M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/0NIRTNsk7aGquSoZB1xiCedhN7G_NTY_43Ex5_LkQ5E"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTE0N2FkaXF6a2N4",
+        "barcode": "X9IJWLNV",
+        "type": "PSC07",
+        "date": "2020-11-25",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Yuksel Albas",
+          "cessation_date": "2020-11-25"
+        },
+        "pages": 1,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTE0N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/4UJkYASUTFOpdTF5lc8tS7qwHndRZY3fvDgIwU4wdVU"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2OTAxM2FkaXF6a2N4",
+        "barcode": "X9IJWKSR",
+        "type": "TM02",
+        "date": "2020-11-25",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Yuksel Albas",
+          "termination_date": "2020-11-25"
+        },
+        "pages": 1,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2OTAxM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/wJfz7P6_H4d3l8S6PAYCjDvQ82IalqvZNvEHm0XRqq8"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDM2ODk5OWFkaXF6a2N4",
+        "barcode": "X9IJWKSZ",
+        "type": "TM01",
+        "date": "2020-11-25",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Yuksel Albas",
+          "termination_date": "2020-11-25"
+        },
+        "pages": 1,
+        "action_date": "2020-11-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI4NDM2ODk5OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/XJ6cbuSlYQCCm5UuytvPnYwd5jWj9laL2VEQkbA9sNY"
+        }
+      },
+      {
+        "transaction_id": "MzI3NzY2Mjk2OWFkaXF6a2N4",
+        "barcode": "X9DNI4Y0",
+        "type": "AD01",
+        "date": "2020-09-15",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2020-09-15",
+          "old_address": "28-30 Wilbraham Road Manchester M14 7DW England",
+          "new_address": "8 Lordsmill Street Chesterfield S41 7RW"
+        },
+        "pages": 1,
+        "action_date": "2020-09-15",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NzY2Mjk2OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/MZ0Le-x0Ie5TIDZdkB0F_tZ4gh_qKjHog_nsSMoxXp4"
+        }
+      },
+      {
+        "transaction_id": "MzI3NzAyNzE3NGFkaXF6a2N4",
+        "barcode": "X9D2C62G",
+        "type": "PSC01",
+        "date": "2020-09-07",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Yuksel Albas",
+          "notification_date": "2020-09-07"
+        },
+        "pages": 2,
+        "action_date": "2020-09-07",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NzAyNzE3NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/IBkwq1tM4sDREQhaYCslD7uMdmkaLtB4bu5MPDyuHEM"
+        }
+      },
+      {
+        "transaction_id": "MzI3NzAyNjM5OGFkaXF6a2N4",
+        "barcode": "X9D2C2MP",
+        "type": "PSC07",
+        "date": "2020-09-07",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Albas Yuksel",
+          "cessation_date": "2020-09-07"
+        },
+        "pages": 1,
+        "action_date": "2020-09-07",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NzAyNjM5OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/NRoRoXSxiw42UU8QGZgRszC-VJXL50NYDK35BuECsi0"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkyMTc5NmFkaXF6a2N4",
+        "barcode": "X9CUMOT7",
+        "type": "CH01",
+        "date": "2020-09-07",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-09-04",
+          "officer_name": "Mr Albas Yuksel"
+        },
+        "pages": 2,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkyMTc5NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/m56kF8hL7QOror9h27_5s1ck_3EtBXadO3fkNTmizq4"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkyMTk0N2FkaXF6a2N4",
+        "barcode": "X9CUMP6G",
+        "type": "CH03",
+        "date": "2020-09-07",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-secretary-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-09-04",
+          "officer_name": "Mr Albas Yuksel"
+        },
+        "pages": 1,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkyMTk0N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/YzBmmMg7mVlVy5J_8MEk1djLhXVzTWXsvNthgONKRuk"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNzE2M2FkaXF6a2N4",
+        "barcode": "X9CUM6GX",
+        "type": "CS01",
+        "date": "2020-09-04",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-09-04"
+        },
+        "pages": 4,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNzE2M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/0-S3_2E77womgwz4SbbcWG4kpvyHFmGNBrqMKzQogFU"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNjg5MWFkaXF6a2N4",
+        "barcode": "X9CUM5DF",
+        "type": "PSC01",
+        "date": "2020-09-04",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Albas Yuksel",
+          "notification_date": "2020-09-04"
+        },
+        "pages": 2,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNjg5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/_aXE9Sw4UavsYRoxfOUTb_bNeSVo-7N3KIbtpHVIivw"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNjI5NGFkaXF6a2N4",
+        "barcode": "X9CUM2XN",
+        "type": "AP03",
+        "date": "2020-09-04",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Albas Yuksel",
+          "appointment_date": "2020-09-04"
+        },
+        "pages": 2,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNjI5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ySgDvsJVgvlkikLHdUNa-pmD6yErT3oFCvKaEk_oB60"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNjIwMGFkaXF6a2N4",
+        "barcode": "X9CUM2S0",
+        "type": "AP01",
+        "date": "2020-09-04",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Albas Yuksel",
+          "appointment_date": "2020-09-04"
+        },
+        "pages": 2,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNjIwMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/RIaHGJsHbYvVkqbmeRRVsQologvInGZ6OwMu-PNHZrk"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNTgwMGFkaXF6a2N4",
+        "barcode": "X9CUM1LM",
+        "type": "TM01",
+        "date": "2020-09-04",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2020-09-04"
+        },
+        "pages": 1,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNTgwMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/bLalmze5vmeJJZxX_b87xSYJYWHtJoGdZIXVJJNwz8A"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNTc5MGFkaXF6a2N4",
+        "barcode": "X9CUM1JE",
+        "type": "TM02",
+        "date": "2020-09-04",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2020-09-04"
+        },
+        "pages": 1,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNTc5MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/XhYVnwgfL8g7eJyCawYZIhiV1g-hmlyLfhXZutFMPr0"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjkxNTc5NGFkaXF6a2N4",
+        "barcode": "X9CUM1E3",
+        "type": "PSC07",
+        "date": "2020-09-04",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "cessation_date": "2020-09-04"
+        },
+        "pages": 1,
+        "action_date": "2020-09-04",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3NjkxNTc5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-GPGBb-93MThuEKZK1kCwwAZmXxeZ20zhHdvqVg6P5A"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0NDUzMmFkaXF6a2N4",
+        "barcode": "X98YUOQR",
+        "type": "AP03",
+        "date": "2020-07-10",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2020-07-10"
+        },
+        "pages": 2,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0NDUzMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/NisiV8b8GTZBQBSF3D0Fln38dyNUm9DtJvD0yeOsk0w"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0NDQ5MmFkaXF6a2N4",
+        "barcode": "X98YUOM3",
+        "type": "AP01",
+        "date": "2020-07-10",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2020-07-10"
+        },
+        "pages": 2,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0NDQ5MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/f1fHOEuniH7PdVLW5GoZ761YowJ0q4n0OPWoW_pztr8"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0NDI3OGFkaXF6a2N4",
+        "barcode": "X98YUNSO",
+        "type": "PSC01",
+        "date": "2020-07-10",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "notification_date": "2020-07-10"
+        },
+        "pages": 2,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0NDI3OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/wYEAeVmyat0hb1CPo-HE5wDXWnCZIe8WV88xxlBN6Y4"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0Mzk5NGFkaXF6a2N4",
+        "barcode": "X98YUMW8",
+        "type": "TM01",
+        "date": "2020-07-10",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Peter Taylor",
+          "termination_date": "2020-07-10"
+        },
+        "pages": 1,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0Mzk5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/6pjCLLvSTnJTOTdjVNqvCINbHzKn1f2r9LVxgtXGCoQ"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0Mzk0N2FkaXF6a2N4",
+        "barcode": "X98YUMI2",
+        "type": "TM02",
+        "date": "2020-07-10",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Peter Taylor",
+          "termination_date": "2020-07-10"
+        },
+        "pages": 1,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0Mzk0N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/8pdZrJ68NnzgYnYTimvHzkH7oueBlWl3MonAEJjM_ck"
+        }
+      },
+      {
+        "transaction_id": "MzI3Mjg0MzkzM2FkaXF6a2N4",
+        "barcode": "X98YUMF6",
+        "type": "PSC07",
+        "date": "2020-07-10",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Peter Taylor",
+          "cessation_date": "2020-07-10"
+        },
+        "pages": 1,
+        "action_date": "2020-07-10",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI3Mjg0MzkzM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/PmTjPRKfWlfpK60V11Aj9W2qzbT886j1JtkRu9UQDtE"
+        }
+      },
+      {
+        "transaction_id": "MzI1ODQxNzA3NmFkaXF6a2N4",
+        "barcode": "X8ZOLWM9",
+        "type": "CS01",
+        "date": "2020-02-27",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-02-27"
+        },
+        "pages": 3,
+        "action_date": "2020-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI1ODQxNzA3NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/A7La3Zgc4MU6iTOsOr1FFFJNjbmh8GRxU9RiLg_twdg"
+        }
+      },
+      {
+        "transaction_id": "MzI0NjUyODYyMGFkaXF6a2N4",
+        "barcode": "X8FRAQWW",
+        "type": "AA",
+        "date": "2019-10-10",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-dormant",
+        "description_values": {
+          "made_up_date": "2019-09-30"
+        },
+        "pages": 2,
+        "action_date": "2019-09-30",
+        "links": {
+          "self": "/company/11562953/filing-history/MzI0NjUyODYyMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/eNI05pis_DryNgD9HGQbjxIMiToGelS7MSw3-JeSBDo"
+        }
+      },
+      {
+        "transaction_id": "MzIyOTAwOTE0NmFkaXF6a2N4",
+        "barcode": "X8116HL7",
+        "type": "PSC01",
+        "date": "2019-03-11",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Peter Taylor",
+          "notification_date": "2019-03-11"
+        },
+        "pages": 2,
+        "action_date": "2019-03-11",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyOTAwOTE0NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/UlNzyvbSVcQow1xkz917PlxyQyHjhLsDzaaqP9KFJYY"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5NjI4NGFkaXF6a2N4",
+        "barcode": "X805GPS9",
+        "type": "AP03",
+        "date": "2019-02-28",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Peter Taylor",
+          "appointment_date": "2019-02-27"
+        },
+        "pages": 2,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5NjI4NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/AqYavlTe1xUeO4iWgGFsso-uKEY-iLQL8oBWLWm9wOE"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5NjE5NGFkaXF6a2N4",
+        "barcode": "X805GOYX",
+        "type": "TM02",
+        "date": "2019-02-27",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Nazim Topuz",
+          "termination_date": "2019-02-27"
+        },
+        "pages": 1,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5NjE5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/TiJBjV-7ZEqszMvujS7HeGCaMF0xXw1E_w0wO3hn4nk"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5NjA3MGFkaXF6a2N4",
+        "barcode": "X805GOMJ",
+        "type": "CS01",
+        "date": "2019-02-27",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2019-02-27"
+        },
+        "pages": 4,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5NjA3MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ROikqeE_3nHYrVW7-X8LjVjAQp0NTy2ZTyr41fv2WOI"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5NTkxOWFkaXF6a2N4",
+        "barcode": "X805GNYW",
+        "type": "AP01",
+        "date": "2019-02-27",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Peter Taylor",
+          "appointment_date": "2019-02-27"
+        },
+        "pages": 2,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5NTkxOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/OmW_8yKYGUFQpALrW4MOGGJkQBJ1lPgOZtuqqueyA6Q"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5NDM1MmFkaXF6a2N4",
+        "barcode": "X805GH76",
+        "type": "AD01",
+        "date": "2019-02-27",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2019-02-27",
+          "old_address": "3 Arundel Close Chesterfield S41 8NT England",
+          "new_address": "28-30 Wilbraham Road Manchester M14 7DW"
+        },
+        "pages": 1,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5NDM1MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/NPs1Rdh-1EnC0jz-HAESX_LyAN6v3x8CGbqYcTinr0o"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5MzM4M2FkaXF6a2N4",
+        "barcode": "X805GD89",
+        "type": "TM01",
+        "date": "2019-02-27",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2019-02-27"
+        },
+        "pages": 1,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5MzM4M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/6aTqRxPsq-mYkhh8eVWy5VhJozTNfF3-6JurivB8w4E"
+        }
+      },
+      {
+        "transaction_id": "MzIyODA5MzM1NGFkaXF6a2N4",
+        "barcode": "X805GD9E",
+        "type": "PSC07",
+        "date": "2019-02-27",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "cessation_date": "2019-02-27"
+        },
+        "pages": 1,
+        "action_date": "2019-02-27",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIyODA5MzM1NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/komUrv74ypUuU4w0PAkLPHJ2bnAQNfv-X284-XdxZ-U"
+        }
+      },
+      {
+        "transaction_id": "MzIxOTcxMjM2MmFkaXF6a2N4",
+        "barcode": "X7J16NVT",
+        "type": "AP03",
+        "date": "2018-11-19",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Nazim Topuz",
+          "appointment_date": "2018-11-19"
+        },
+        "pages": 2,
+        "action_date": "2018-11-19",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxOTcxMjM2MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/uZhm1Jy1hMwI8cD3IaaqzUSCd5pJueVN5RFhv7MXXPY"
+        }
+      },
+      {
+        "transaction_id": "MzIxOTcxMTg4N2FkaXF6a2N4",
+        "barcode": "X7J16MKI",
+        "type": "TM02",
+        "date": "2018-11-19",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-secretary-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Cuma Eren",
+          "termination_date": "2018-11-19"
+        },
+        "pages": 1,
+        "action_date": "2018-11-19",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxOTcxMTg4N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Mc7_k8dHNGl-ChkzAeA8PnwQTM1rcWKQ_tWGd6VRGc8"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NjAwOWFkaXF6a2N4",
+        "barcode": "X7F8S1EW",
+        "type": "CS01",
+        "date": "2018-09-25",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2018-09-25"
+        },
+        "pages": 4,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NjAwOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/V0KOuJKZKizXXlqTqU9BedKuo0c9jdWxqz-uF4MXkQY"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NTU1MGFkaXF6a2N4",
+        "barcode": "X7F8RSEH",
+        "type": "PSC01",
+        "date": "2018-09-25",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Cuma Eren",
+          "notification_date": "2018-09-25"
+        },
+        "pages": 2,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NTU1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/pI9xke3P-pDV6OVxD_rj2MjlOwrotsW3vk4qJG14veA"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NTI4NGFkaXF6a2N4",
+        "barcode": "X7F8RGM1",
+        "type": "AP01",
+        "date": "2018-09-25",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-director-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2018-09-25"
+        },
+        "pages": 2,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NTI4NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/xs17OFNlQ8Fu7-ztAqjiaA94b6BRjjgj5EL-x56E-n4"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NTMxNmFkaXF6a2N4",
+        "barcode": "X7F8RJII",
+        "type": "AP03",
+        "date": "2018-09-25",
+        "category": "officers",
+        "subcategory": "appointments",
+        "description": "appoint-person-secretary-company-with-name-date",
+        "description_values": {
+          "officer_name": "Mr Cuma Eren",
+          "appointment_date": "2018-09-25"
+        },
+        "pages": 2,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NTMxNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/fwIrpzzF-a3_k7gF5alVJ_UhXL4mF9y-m1x18AdV0uc"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NDgzMGFkaXF6a2N4",
+        "barcode": "X7F8R6HK",
+        "type": "AD01",
+        "date": "2018-09-25",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2018-09-25",
+          "old_address": "28-30 Wilbraham Road Fallowfield Manchester M14 7DW United Kingdom",
+          "new_address": "3 Arundel Close Chesterfield S41 8NT"
+        },
+        "pages": 1,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NDgzMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/odnTRuaNiLv1K7zXGlXhEdEoHvgokztkIrN8QnMQngA"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NDc3NWFkaXF6a2N4",
+        "barcode": "X7F8R4VS",
+        "type": "PSC07",
+        "date": "2018-09-25",
+        "category": "persons-with-significant-control",
+        "subcategory": "termination",
+        "description": "cessation-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Fd Secretarial Ltd",
+          "cessation_date": "2018-09-25"
+        },
+        "pages": 1,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NDc3NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/bsX_w8S245OKjsUkFEHmPiFDs0SLyiSoAjhcXxF5UZY"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTM0NDY1N2FkaXF6a2N4",
+        "barcode": "X7F8R0OP",
+        "type": "TM01",
+        "date": "2018-09-25",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Michael Duke",
+          "termination_date": "2018-09-25"
+        },
+        "pages": 1,
+        "action_date": "2018-09-25",
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTM0NDY1N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/PJW3h8DtEmw3xb-NRAXOp_OcibAsNTvVlPwkM0iQBkU"
+        }
+      },
+      {
+        "transaction_id": "MzIxNTIxMTk3MGFkaXF6a2N4",
+        "barcode": "X7F6M0ND",
+        "type": "TM01",
+        "date": "2018-09-24",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNTIxMTk3MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/pDy5C8dS5hQkGCSUyKN_9oTyOSjQnd-6_jAZS3Umjds"
+        }
+      },
+      {
+        "transaction_id": "MzIxNDE0NjQzNGFkaXF6a2N4",
+        "barcode": "X7E6JAJF",
+        "type": "NEWINC",
+        "date": "2018-09-11",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "capital",
+            "date": "2018-09-11",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2018-09-11",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "1"
+                }
+              ]
+            },
+            "action_date": "2018-09-11"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 27,
+        "links": {
+          "self": "/company/11562953/filing-history/MzIxNDE0NjQzNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/lS0rKA_VlasvTo2L6zYlRAF93p_5Dioe1wFE0lBGsdQ"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "511fd2d06b5f305ae2dd513e5953116c191255b8",
+        "address": {
+          "address_line_1": "49 Duke Street",
+          "locality": "Darlington",
+          "postal_code": "DL3 7SD",
+          "premises": "C/O Business Rescue Expert"
+        },
+        "appointed_on": "2020-11-30",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/y3d86ayInLUl8iPDg8p81B0KzmE",
+          "officer": {
+            "appointments": "/officers/n1MiQGP_hHjCHYlHseoPLj0rhEA/appointments"
+          }
+        },
+        "name": "ALBAS, Yuksel",
+        "officer_role": "secretary",
+        "person_number": "277083840001"
+      },
+      {
+        "etag": "a76758a6833526973ab602a2e2b08f89992055fd",
+        "address": {
+          "address_line_1": "49 Duke Street",
+          "locality": "Darlington",
+          "postal_code": "DL3 7SD",
+          "premises": "C/O Business Rescue Expert"
+        },
+        "appointed_on": "2020-11-30",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1983
+        },
+        "links": {
+          "self": "/company/11562953/appointments/AltY9WAjiLzFaXaiziptufP12-A",
+          "officer": {
+            "appointments": "/officers/W7U0zt7I-kZ7nKToFNHcnEyBWTU/appointments"
+          }
+        },
+        "name": "ALBAS, Yuksel",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "277083870001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      },
+      {
+        "etag": "aaf9b5c75d2675dcdb7889b509ffeec3ca1a68a2",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2020-09-04",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/VpFOgPJYFCNDNK17VrhOsDwmXog",
+          "officer": {
+            "appointments": "/officers/Qvg49E9WcmjYJw2dtzAzpNCWuyc/appointments"
+          }
+        },
+        "name": "ALBAS, Yuksel",
+        "officer_role": "secretary",
+        "resigned_on": "2020-11-25",
+        "person_number": "273840320002"
+      },
+      {
+        "etag": "3b14b7fadefcd0d8f3ce306b86bc4a5bac55223a",
+        "address": {
+          "address_line_1": "Lordsmill Street",
+          "country": "England",
+          "locality": "Chesterfield",
+          "postal_code": "S41 7RW",
+          "premises": "8"
+        },
+        "appointed_on": "2020-11-25",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/lcbPKaMvQoK3cMqzair7tNBrAjA",
+          "officer": {
+            "appointments": "/officers/T4F1vq36vUC0UtGL8FBoR02RTh8/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "officer_role": "secretary",
+        "resigned_on": "2020-11-30",
+        "person_number": "276944720001"
+      },
+      {
+        "etag": "1e0d1f73828d7e6d2241a43cd54638fec5811eef",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2020-07-10",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/Ep2foVgYdc6yuv12sFwYnqu9qZs",
+          "officer": {
+            "appointments": "/officers/HQatWVspz6m-_N7xvDTehel79uA/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "officer_role": "secretary",
+        "resigned_on": "2020-09-04",
+        "person_number": "271827610001"
+      },
+      {
+        "etag": "8b0a638eedee38ec92feee77fe59939482337690",
+        "address": {
+          "address_line_1": "Arundel Close",
+          "country": "England",
+          "locality": "Chesterfield",
+          "postal_code": "S41 8NT",
+          "premises": "3"
+        },
+        "appointed_on": "2018-09-25",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/8A4b27q7vkLbQvK8_SVupXlv--Y",
+          "officer": {
+            "appointments": "/officers/On9ecHZBHRL08ytrbSWdHsRA9rs/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "officer_role": "secretary",
+        "resigned_on": "2018-11-19",
+        "person_number": "250747950001"
+      },
+      {
+        "etag": "02e0e7afc1e609987fb5e7e4542471a968876094",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2019-02-27",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/sXUBLEgnB2lkl9IEsmKTspuyeK0",
+          "officer": {
+            "appointments": "/officers/VNjHEApYQYNyuevMGihg9nBze8E/appointments"
+          }
+        },
+        "name": "TAYLOR, Peter",
+        "officer_role": "secretary",
+        "resigned_on": "2020-07-10",
+        "person_number": "255804290001"
+      },
+      {
+        "etag": "67fba5de967ca9dd42dc33c74c12a35cb4871fb7",
+        "address": {
+          "address_line_1": "Edinburgh Road",
+          "country": "England",
+          "locality": "Chesterfield",
+          "postal_code": "S41 7HF",
+          "premises": "9"
+        },
+        "appointed_on": "2018-11-19",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11562953/appointments/4s4mR1_QC2B64h6NJT43Ydw8UsI",
+          "officer": {
+            "appointments": "/officers/otYX5bXffIJ8wNilzLTmAhJoKkM/appointments"
+          }
+        },
+        "name": "TOPUZ, Nazim",
+        "officer_role": "secretary",
+        "resigned_on": "2019-02-27",
+        "person_number": "252627130001"
+      },
+      {
+        "etag": "0452ce933427355b79182cc5f6d60cf2a8aef99a",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2020-09-04",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1983
+        },
+        "links": {
+          "self": "/company/11562953/appointments/Ea90LGxcOXC-6MwS9CDCFOoxMoU",
+          "officer": {
+            "appointments": "/officers/Up0Imbc8hKYJKLokmWq2IxbgI4U/appointments"
+          }
+        },
+        "name": "ALBAS, Yuksel",
+        "nationality": "Turkish",
+        "officer_role": "director",
+        "resigned_on": "2020-11-25",
+        "person_number": "273840240002"
+      },
+      {
+        "etag": "5ad8ca85d1fe37c62025abd20e0e59f1b8eaa551",
+        "address": {
+          "address_line_1": "2 Woodberry Grove",
+          "country": "United Kingdom",
+          "locality": "Finchley",
+          "postal_code": "N12 0DR",
+          "premises": "Woodberry House",
+          "region": "London"
+        },
+        "appointed_on": "2018-09-11",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1959
+        },
+        "links": {
+          "self": "/company/11562953/appointments/9BGfwFT9X5nAltzgQnlape71NK4",
+          "officer": {
+            "appointments": "/officers/Q95tb8WpmOfsw_-cxyk2AqVgdHY/appointments"
+          }
+        },
+        "name": "DUKE, Michael",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2018-09-25",
+        "person_number": "201779310001"
+      },
+      {
+        "etag": "2303c0fd8b4c93671d705e7b3376f252937d579c",
+        "address": {
+          "address_line_1": "Lordsmill Street",
+          "country": "England",
+          "locality": "Chesterfield",
+          "postal_code": "S41 7RW",
+          "premises": "8"
+        },
+        "appointed_on": "2020-11-25",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1976
+        },
+        "links": {
+          "self": "/company/11562953/appointments/QlXAOxtq4qyRr8s5ZzCwWhF1QIc",
+          "officer": {
+            "appointments": "/officers/PJVA-nsqS3Zj194QqCMX74S7mCA/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2020-11-30",
+        "person_number": "250747970001"
+      },
+      {
+        "etag": "c9b043e2d9a717927cf68b395eecd2aaa0c850aa",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2020-07-10",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1976
+        },
+        "links": {
+          "self": "/company/11562953/appointments/KA7Jp5UXWXEsBbgc4cCGf-xLnhU",
+          "officer": {
+            "appointments": "/officers/PJVA-nsqS3Zj194QqCMX74S7mCA/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2020-09-04",
+        "person_number": "250747970001"
+      },
+      {
+        "etag": "ebefeb55d15ee98c0f982e0c0b35749c01f3a3f9",
+        "address": {
+          "address_line_1": "Arundel Close",
+          "country": "England",
+          "locality": "Chesterfield",
+          "postal_code": "S41 8NT",
+          "premises": "3"
+        },
+        "appointed_on": "2018-09-25",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1976
+        },
+        "links": {
+          "self": "/company/11562953/appointments/KgExfT4IvlYUKFtInMJpiZxeUT4",
+          "officer": {
+            "appointments": "/officers/PJVA-nsqS3Zj194QqCMX74S7mCA/appointments"
+          }
+        },
+        "name": "EREN, Cuma",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2019-02-27",
+        "person_number": "250747970001"
+      },
+      {
+        "etag": "093676ae61af8bb127ee126a0221ede67865ce8d",
+        "address": {
+          "address_line_1": "Wilbraham Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M14 7DW",
+          "premises": "28-30"
+        },
+        "appointed_on": "2019-02-27",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1954
+        },
+        "links": {
+          "self": "/company/11562953/appointments/7kzMOYVAgeT-pBc-1DBSY5HFRUk",
+          "officer": {
+            "appointments": "/officers/GgXQEzQ0jwU0kF5iF9p_dz_qRCA/appointments"
+          }
+        },
+        "name": "TAYLOR, Peter",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2020-07-10",
+        "person_number": "255775820001"
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "11648119",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "31",
+          "month": "10"
+        },
+        "last_accounts": {
+          "made_up_to": "2021-10-31",
+          "period_end_on": "2021-10-31",
+          "period_start_on": "2020-11-01",
+          "type": "total-exemption-full"
+        },
+        "next_accounts": {
+          "due_on": "2023-07-31",
+          "overdue": true,
+          "period_end_on": "2022-10-31",
+          "period_start_on": "2021-11-01"
+        },
+        "next_due": "2023-07-31",
+        "next_made_up_to": "2022-10-31",
+        "overdue": true
+      },
+      "can_file": true,
+      "company_name": "PITCH FOODS LTD",
+      "company_number": "11648119",
+      "company_status": "liquidation",
+      "confirmation_statement": {
+        "last_made_up_to": "2022-09-23",
+        "next_due": "2023-10-07",
+        "next_made_up_to": "2023-09-23",
+        "overdue": true
+      },
+      "date_of_creation": "2018-10-29",
+      "etag": "faa831fed79d71aac842a30fb6f82d6cfd12ac41",
+      "has_charges": true,
+      "has_insolvency_history": true,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/11648119/persons-with-significant-control",
+        "self": "/company/11648119",
+        "charges": "/company/11648119/charges",
+        "filing_history": "/company/11648119/filing-history",
+        "insolvency": "/company/11648119/insolvency",
+        "officers": "/company/11648119/officers"
+      },
+      "previous_company_names": [
+        {
+          "ceased_on": "2018-12-31",
+          "effective_from": "2018-10-29",
+          "name": "MIRTH RESTAURANTS LTD"
+        }
+      ],
+      "registered_office_address": {
+        "address_line_1": "3rd Floor 37 Frederick Place",
+        "locality": "Brighton",
+        "postal_code": "BN1 4EA"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzU0NjU0NjM5MWFkaXF6a2N4",
+        "barcode": "YFB6PMKA",
+        "type": "LIQ03",
+        "date": "2026-10-05",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2026-08-22"
+        },
+        "pages": 22,
+        "action_date": "2026-08-22",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzU0NjU0NjM5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/nKJZsHmXaPoaD2yuilC5GzBcQQ3LNbPOBuSa0BXp5-k"
+        }
+      },
+      {
+        "transaction_id": "MzQ4MzQ3ODE1NmFkaXF6a2N4",
+        "barcode": "YEC9H9PM",
+        "type": "LIQ03",
+        "date": "2025-10-03",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2025-08-22"
+        },
+        "pages": 24,
+        "action_date": "2025-08-22",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzQ4MzQ3ODE1NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/tuOP8dMAy6vjgap9dFG_pX6vN6S3fw5hziyu5QwdHOA"
+        }
+      },
+      {
+        "transaction_id": "MzQzODYwMDIxMmFkaXF6a2N4",
+        "barcode": "YDD7VMRF",
+        "type": "LIQ03",
+        "date": "2024-10-14",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2024-08-22"
+        },
+        "pages": 26,
+        "action_date": "2024-08-22",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzQzODYwMDIxMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/8eZsfqP4Mn8NBIeWN5Pf2W1u4dVh0Is6FSAgwP2ttJ0"
+        }
+      },
+      {
+        "transaction_id": "MzM5MTg4NTMzOGFkaXF6a2N4",
+        "barcode": "YCBFIBM1",
+        "type": "LIQ02",
+        "date": "2023-09-16",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-affairs",
+        "pages": 10,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzM5MTg4NTMzOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/VDWZqlZU4aVOsQ5K64I1OqDZ0vYL_wUorjHQ4bOSrKg"
+        }
+      },
+      {
+        "transaction_id": "MzM5MDY3ODQ5MWFkaXF6a2N4",
+        "barcode": "YCAM7QW0",
+        "type": "AD01",
+        "date": "2023-09-04",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2023-09-04",
+          "old_address": "16 Warwick Street Worthing BN11 3DJ England",
+          "new_address": "3rd Floor 37 Frederick Place Brighton BN1 4EA"
+        },
+        "pages": 2,
+        "action_date": "2023-09-04",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzM5MDY3ODQ5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/npjzC-9d9Kv5JNjEFvxRhicM4_b21_Qwz66fxlazLsM"
+        }
+      },
+      {
+        "transaction_id": "MzM5MDY3Nzk4MGFkaXF6a2N4",
+        "barcode": "YCAM7ORM",
+        "type": "600",
+        "date": "2023-09-04",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-appointment-of-liquidator",
+        "pages": 3,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/MzM5MDY3Nzk4MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/vi_BuQVT379c8nGkRZUW6cMbMxzyETWwe7zv2z0Vons"
+        }
+      },
+      {
+        "transaction_id": "WUNBTTdSRkxhZGlxemtjeA",
+        "type": "RESOLUTIONS",
+        "date": "2023-09-04",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "liquidation",
+            "description": "liquidation-voluntary-extraordinary-resolution-to-wind-up-with-case-start-date",
+            "type": "LRESEX",
+            "subcategory": [
+              "voluntary",
+              "resolution"
+            ],
+            "description_values": {
+              "case_start_date": "2023-08-23"
+            },
+            "original_description": "Extraordinary resolution to wind up"
+          }
+        ],
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/11648119/filing-history/WUNBTTdSRkxhZGlxemtjeA",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/wuJ1Xyti-V7BToNXuiIgceX9MYzMeEehipuWPs9weVI"
+        }
+      },
+      {
+        "transaction_id": "MzM1MzE3Njc1OGFkaXF6a2N4",
+        "barcode": "XBDF28TS",
+        "type": "CS01",
+        "date": "2022-09-27",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-09-23"
+        },
+        "pages": 3,
+        "action_date": "2022-09-23",
+        "links": {
+          "self": "/company/11648119/filing-history/MzM1MzE3Njc1OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-9__onfLxE0pAUizphw9Esxm2mxIMcgp5KNhcwb1Ou8"
+        }
+      },
+      {
+        "transaction_id": "MzM0NzI3NzcwMGFkaXF6a2N4",
+        "barcode": "XB99RR9D",
+        "type": "AA",
+        "date": "2022-07-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2021-10-31"
+        },
+        "pages": 9,
+        "action_date": "2021-10-31",
+        "links": {
+          "self": "/company/11648119/filing-history/MzM0NzI3NzcwMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/eT8yMUblo5yAsT2IXbV1VqORItmwaA_azaKx9MRDCd4"
+        }
+      },
+      {
+        "transaction_id": "MzMxNjIzNTAzOWFkaXF6a2N4",
+        "barcode": "XAEKI9SR",
+        "type": "CS01",
+        "date": "2021-10-06",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-09-23"
+        },
+        "pages": 3,
+        "action_date": "2021-09-23",
+        "links": {
+          "self": "/company/11648119/filing-history/MzMxNjIzNTAzOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/0N-VLqXxi4MHxYkNLbR5DHyNN6-OJb5nu3pSPOiYP2o"
+        }
+      },
+      {
+        "transaction_id": "MzMwOTI3Mzk3MGFkaXF6a2N4",
+        "barcode": "XA9TJU4A",
+        "type": "AA",
+        "date": "2021-07-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2020-10-31"
+        },
+        "pages": 9,
+        "action_date": "2020-10-31",
+        "links": {
+          "self": "/company/11648119/filing-history/MzMwOTI3Mzk3MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/UXbvGTvtYvUJ10A9aFmdcu1IKK9KTblj0JAjNJyHBIM"
+        }
+      },
+      {
+        "transaction_id": "MzI3ODc3NjExMmFkaXF6a2N4",
+        "barcode": "X9EBP6M3",
+        "type": "PSC01",
+        "date": "2020-09-25",
+        "category": "persons-with-significant-control",
+        "subcategory": "notifications",
+        "description": "notification-of-a-person-with-significant-control",
+        "description_values": {
+          "psc_name": "Daniel Patrick Austen Coughlan",
+          "notification_date": "2020-08-25"
+        },
+        "pages": 2,
+        "action_date": "2020-08-25",
+        "links": {
+          "self": "/company/11648119/filing-history/MzI3ODc3NjExMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/pqnj6fzCIhrAylJXB2bmZ1ZSaHyw5oIy5XZGJzb5lhs"
+        }
+      },
+      {
+        "transaction_id": "MzI3ODUyNjE5MWFkaXF6a2N4",
+        "barcode": "X9E66U3E",
+        "type": "CS01",
+        "date": "2020-09-23",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2020-09-23"
+        },
+        "pages": 5,
+        "action_date": "2020-09-23",
+        "links": {
+          "self": "/company/11648119/filing-history/MzI3ODUyNjE5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/itV2wzDAj8z3CDXZCNsaJc0SDATOt3rxpK0RV6ybt8c"
+        }
+      },
+      {
+        "transaction_id": "MzI3NjIzNDkzOWFkaXF6a2N4",
+        "barcode": "X9C9HPOW",
+        "type": "AA",
+        "date": "2020-08-26",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2019-10-31"
+        },
+        "pages": 10,
+        "action_date": "2019-10-31",
+        "links": {
+          "self": "/company/11648119/filing-history/MzI3NjIzNDkzOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/1_FMUuSlhQA_A-_fZElxH12d8jLsLBgf6LgnplKXhd0"
+        }
+      },
+      {
+        "transaction_id": "MzI2NDU4NTM5OWFkaXF6a2N4",
+        "barcode": "X94WCR1D",
+        "type": "MR01",
+        "date": "2020-05-12",
+        "category": "mortgage",
+        "subcategory": "create",
+        "description": "mortgage-create-with-deed-with-charge-number-charge-creation-date",
+        "description_values": {
+          "charge_number": "116481190001",
+          "charge_creation_date": "2020-05-06"
+        },
+        "pages": 15,
+        "action_date": "2020-05-06",
+        "links": {
+          "self": "/company/11648119/filing-history/MzI2NDU4NTM5OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/I2-IdpSn5EL07RN-UqEHbXwhXjK7b5jALsC_mdwCfQs"
+        }
+      },
+      {
+        "transaction_id": "MzI0OTIwNDgyM2FkaXF6a2N4",
+        "barcode": "X8I6F5LV",
+        "type": "CS01",
+        "date": "2019-11-13",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2019-10-28"
+        },
+        "pages": 5,
+        "action_date": "2019-10-28",
+        "links": {
+          "self": "/company/11648119/filing-history/MzI0OTIwNDgyM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/GxJXCH8lA5RBo3__2obSbLfJztlcJ40j01G332Mq_F4"
+        }
+      },
+      {
+        "transaction_id": "MzIyNDk5ODA3NWFkaXF6a2N4",
+        "barcode": "X7XNBEKI",
+        "type": "AD01",
+        "date": "2019-01-21",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2019-01-21",
+          "old_address": "16 Warwick Street Worthing West Sussex BN11 3BJ United Kingdom",
+          "new_address": "16 Warwick Street Worthing BN11 3DJ"
+        },
+        "pages": 1,
+        "action_date": "2019-01-21",
+        "links": {
+          "self": "/company/11648119/filing-history/MzIyNDk5ODA3NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/O2gzPIv3PU7oyAArK3IJZfezKp-OLTZav47UECk1DL0"
+        }
+      },
+      {
+        "transaction_id": "MzIyMzMwNjE3NGFkaXF6a2N4",
+        "barcode": "X7LU9WTD",
+        "type": "RESOLUTIONS",
+        "date": "2018-12-31",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "change-of-name",
+            "description": "resolution-change-of-name",
+            "type": "RES15",
+            "subcategory": "resolution",
+            "description_values": {
+              "resolution_date": "2018-12-29"
+            }
+          }
+        ],
+        "associated_filings": [
+          {
+            "category": "change-of-name",
+            "date": "2018-12-31",
+            "description": "change-of-name-by-resolution",
+            "type": "NM01"
+          }
+        ],
+        "subcategory": "certificate",
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 3,
+        "links": {
+          "self": "/company/11648119/filing-history/MzIyMzMwNjE3NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/z_MCdfTn-fzq06rC44NQL94ju67jbu8RtwtlkplsgIY"
+        }
+      },
+      {
+        "transaction_id": "MzIxODA2MDA3OGFkaXF6a2N4",
+        "barcode": "X7HJSWQY",
+        "type": "NEWINC",
+        "date": "2018-10-29",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2018-10-29",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2018-10-29",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2018-10-29",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "2"
+                }
+              ]
+            },
+            "action_date": "2018-10-29"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 13,
+        "links": {
+          "self": "/company/11648119/filing-history/MzIxODA2MDA3OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ZarLpBAPzCnN5a1bucL-yjhqZrSEqckPUJ74HZlgjZI"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "ffb0347552f548512f5fa199634cb20fd53601d6",
+        "address": {
+          "address_line_1": "37 Frederick Place",
+          "locality": "Brighton",
+          "postal_code": "BN1 4EA",
+          "premises": "3rd Floor"
+        },
+        "appointed_on": "2018-10-29",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/11648119/appointments/Vd1GSMkt6DRfrHfRCp44VdcfmY0",
+          "officer": {
+            "appointments": "/officers/zhLpf6QeKwp35-yf_WNJbURdTr8/appointments"
+          }
+        },
+        "name": "TUTT, Lucy Margaret",
+        "officer_role": "secretary",
+        "person_number": "251923890001"
+      },
+      {
+        "etag": "a733ee7b55f1d97199dd89b227b5503ee9e92ae7",
+        "address": {
+          "address_line_1": "37 Frederick Place",
+          "locality": "Brighton",
+          "postal_code": "BN1 4EA",
+          "premises": "3rd Floor"
+        },
+        "appointed_on": "2018-10-29",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1982
+        },
+        "links": {
+          "self": "/company/11648119/appointments/UGCusmOGGaztzxn0e5D5DICR4nE",
+          "officer": {
+            "appointments": "/officers/6qiC0dKJJtRt0pTZ2ny5Tdgwwdg/appointments"
+          }
+        },
+        "name": "TUTT, Kenneth Frederick",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "251923880001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2025-11-18"
+        }
+      }
+    ],
+    "charges": [
+      {
+        "charge_code": "116481190001",
+        "charge_number": 1,
+        "classification": {
+          "description": "A registered charge",
+          "type": "charge-description"
+        },
+        "created_on": "2020-05-06",
+        "delivered_on": "2020-05-12",
+        "etag": "88dc86f3e7fc42aadec69a29a711e80995b24ff9",
+        "links": {
+          "self": "/company/11648119/charges/bfInWlHMaREpSZHds51X-tIGnBQ"
+        },
+        "particulars": {
+          "contains_fixed_charge": true,
+          "contains_floating_charge": true,
+          "contains_negative_pledge": true,
+          "description": "None.",
+          "floating_charge_covers_all": true,
+          "type": "brief-description"
+        },
+        "persons_entitled": [
+          {
+            "name": "Santander UK PLC as Security Trustee"
+          }
+        ],
+        "status": "outstanding",
+        "transactions": [
+          {
+            "delivered_on": "2020-05-12",
+            "filing_type": "create-charge-with-deed",
+            "links": {
+              "filing": "/company/11648119/filing-history/MzI2NDU4NTM5OWFkaXF6a2N4"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_number": "15661339",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "30",
+          "month": "04"
+        }
+      },
+      "can_file": false,
+      "company_name": "CEM GROUP LTD",
+      "company_number": "15661339",
+      "company_status": "dissolved",
+      "date_of_cessation": "2025-02-04",
+      "date_of_creation": "2024-04-19",
+      "etag": "04047efa4fda742230cd7b740d6b30b026faaf81",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/15661339/persons-with-significant-control",
+        "self": "/company/15661339",
+        "filing_history": "/company/15661339/filing-history",
+        "officers": "/company/15661339/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "The White Horse 246 The Street",
+        "address_line_2": "Boughton-Under-Blean",
+        "country": "England",
+        "locality": "Faversham",
+        "postal_code": "ME13 9AL"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "55100",
+        "56101",
+        "56302"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQ1Mjg4OTI1NWFkaXF6a2N4",
+        "type": "GAZ2(A)",
+        "date": "2025-02-04",
+        "category": "gazette",
+        "description": "gazette-dissolved-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/15661339/filing-history/MzQ1Mjg4OTI1NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/7Hn3LPV5WNqUrjwyN6almZCGRLzkdzdbc6NJ8qHxJfg"
+        }
+      },
+      {
+        "transaction_id": "MzQ0Mjc4MTIyNWFkaXF6a2N4",
+        "type": "GAZ1(A)",
+        "date": "2024-11-19",
+        "category": "gazette",
+        "description": "gazette-notice-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/15661339/filing-history/MzQ0Mjc4MTIyNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Sen4R5zEVLrsfCNwWEbSdQx8PFvlxjQJMEFgTY_43_Q"
+        }
+      },
+      {
+        "transaction_id": "MzQ0MjQ0MDQyNWFkaXF6a2N4",
+        "barcode": "XDFH0BF5",
+        "type": "DS01",
+        "date": "2024-11-12",
+        "category": "dissolution",
+        "description": "dissolution-application-strike-off-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/15661339/filing-history/MzQ0MjQ0MDQyNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/09SSfqG7oDiikaUa827Vo-m2hO5Y2Yfbm2okROTUe1o"
+        }
+      },
+      {
+        "transaction_id": "MzQxOTA0NjM1MWFkaXF6a2N4",
+        "barcode": "XD1E2060",
+        "type": "NEWINC",
+        "date": "2024-04-19",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2024-04-19",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2024-04-19",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2024-04-19",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "100"
+                }
+              ]
+            },
+            "action_date": "2024-04-19"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 12,
+        "links": {
+          "self": "/company/15661339/filing-history/MzQxOTA0NjM1MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/5QG3Rig8UYmQS6koHEkqsI-Q_scDPHcOwZ800mC9owE"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "a533a1cb3232a22c5b396b7b348dcdd90e9787df",
+        "address": {
+          "address_line_1": "246 The Street",
+          "address_line_2": "Boughton-Under-Blean",
+          "country": "England",
+          "locality": "Faversham",
+          "postal_code": "ME13 9AL",
+          "premises": "The White Horse"
+        },
+        "appointed_on": "2024-04-19",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1974
+        },
+        "links": {
+          "self": "/company/15661339/appointments/jrNUPYoj5OthR6iUkPS1o2In2pY",
+          "officer": {
+            "appointments": "/officers/gTCenUyC6boAgiQ3zqbEYQx7p5Q/appointments"
+          }
+        },
+        "name": "EALHAM, Claire Louise",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "322088770001"
+      },
+      {
+        "etag": "a533a1cb3232a22c5b396b7b348dcdd90e9787df",
+        "address": {
+          "address_line_1": "246 The Street",
+          "address_line_2": "Boughton-Under-Blean",
+          "country": "England",
+          "locality": "Faversham",
+          "postal_code": "ME13 9AL",
+          "premises": "The White Horse"
+        },
+        "appointed_on": "2024-04-19",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 2000
+        },
+        "links": {
+          "self": "/company/15661339/appointments/B4Uu8TeXzdP2qeOhEC-VC18IOQI",
+          "officer": {
+            "appointments": "/officers/uIYlcKgyPVxdD257xOAUlCe373A/appointments"
+          }
+        },
+        "name": "WRAIGHT, Molly Eliza",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "322088780001"
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "10195922",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "31",
+          "month": "05"
+        },
+        "last_accounts": {
+          "made_up_to": "2017-05-31",
+          "period_end_on": "2017-05-31",
+          "type": "total-exemption-full"
+        }
+      },
+      "can_file": false,
+      "company_name": "STI - SCALABIS TAGUS INTERNACIONAL T & C LIMITED",
+      "company_number": "10195922",
+      "company_status": "dissolved",
+      "confirmation_statement": {
+        "last_made_up_to": "2018-01-20"
+      },
+      "date_of_cessation": "2025-01-29",
+      "date_of_creation": "2016-05-24",
+      "etag": "caf67baf99b099714183a0f54a1090d07828661f",
+      "has_charges": false,
+      "has_insolvency_history": true,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/10195922/persons-with-significant-control",
+        "self": "/company/10195922",
+        "filing_history": "/company/10195922/filing-history",
+        "insolvency": "/company/10195922/insolvency",
+        "officers": "/company/10195922/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "Goodwood House",
+        "address_line_2": "Blackbrook Park Avenue",
+        "locality": "Taunton",
+        "postal_code": "TA1 2PX",
+        "region": "Somerset"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQ1MzAwOTMzN2FkaXF6a2N4",
+        "type": "GAZ2",
+        "date": "2025-01-29",
+        "category": "gazette",
+        "description": "gazette-dissolved-liquidation",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzQ1MzAwOTMzN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/yHSU7R0_-XBAxzhOT7XfR0Jr--y3-0E6m2zaGD80bLk"
+        }
+      },
+      {
+        "transaction_id": "MzQ0MDQ4NjIyN2FkaXF6a2N4",
+        "barcode": "YDE9MJY0",
+        "type": "LIQ14",
+        "date": "2024-10-29",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-creditors-return-of-final-meeting",
+        "pages": 17,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzQ0MDQ4NjIyN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/rU4v2zZ7A9s8vjfjQRIE3nICr1Kp2v_QXxzlDyhbpAE"
+        }
+      },
+      {
+        "transaction_id": "MzQwODc2MjUzOGFkaXF6a2N4",
+        "barcode": "YCVDEZWW",
+        "type": "LIQ03",
+        "date": "2024-01-29",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2023-11-26"
+        },
+        "pages": 14,
+        "action_date": "2023-11-26",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzQwODc2MjUzOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/XYqEj2C5iCIyG1UUFqe_hSFg3fXpdCxhYNPLdSCXERY"
+        }
+      },
+      {
+        "transaction_id": "MzM2Njk3NjU0MWFkaXF6a2N4",
+        "barcode": "YBVWH34P",
+        "type": "LIQ03",
+        "date": "2023-01-27",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2022-11-26"
+        },
+        "pages": 14,
+        "action_date": "2022-11-26",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzM2Njk3NjU0MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/jmWqwimyvoNeq3f0TubMoWMcd0Sv0wGwxELz2MldKEo"
+        }
+      },
+      {
+        "transaction_id": "MzMyNjkzMDM5OGFkaXF6a2N4",
+        "barcode": "YAVZCNW9",
+        "type": "LIQ03",
+        "date": "2022-01-19",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2021-11-26"
+        },
+        "pages": 14,
+        "action_date": "2021-11-26",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzMyNjkzMDM5OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/KMT-G0BLjSotIPH_MSnNL106wy7UhlaZ9YbEPnm-YrU"
+        }
+      },
+      {
+        "transaction_id": "MzI4OTM4NzQ1NGFkaXF6a2N4",
+        "barcode": "Y9WQRAJ5",
+        "type": "LIQ03",
+        "date": "2021-01-25",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2020-11-26"
+        },
+        "pages": 14,
+        "action_date": "2020-11-26",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzI4OTM4NzQ1NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/TsLcpPDusYP1g_5NJFIwSZxfOESKbFT09qtxSFVVTAE"
+        }
+      },
+      {
+        "transaction_id": "MzI1NTc1MzE3MmFkaXF6a2N4",
+        "barcode": "A8XF9G5D",
+        "type": "LIQ03",
+        "date": "2020-01-28",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+        "description_values": {
+          "brought_down_date": "2019-11-26"
+        },
+        "pages": 14,
+        "action_date": "2019-11-26",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzI1NTc1MzE3MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/_viH6ZYvlSl1Y9q7Sl2LfDinStxjNy2NqpxBw38dTgk"
+        }
+      },
+      {
+        "transaction_id": "MzI0NzMwNjUxMmFkaXF6a2N4",
+        "barcode": "A8G95NDV",
+        "type": "AD01",
+        "date": "2019-10-22",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2019-10-22",
+          "old_address": "Mary Street House Mary Street Taunton Somerset TA1 3NW",
+          "new_address": "Goodwood House Blackbrook Park Avenue Taunton Somerset TA1 2PX"
+        },
+        "pages": 2,
+        "action_date": "2019-10-22",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzI0NzMwNjUxMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-dLQGyNWbaXn2vJH2fZNPEqQDX-RZE9Oa5aQUJM397Q"
+        }
+      },
+      {
+        "transaction_id": "MzIyMzMxMjc2NmFkaXF6a2N4",
+        "barcode": "A7K94728",
+        "type": "LIQ02",
+        "date": "2018-12-31",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-statement-of-affairs",
+        "pages": 7,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzIyMzMxMjc2NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/YreVcEkg_xiDUNmPFN4Z_Q-QEJIjhTR8xs5P6eXLwsM"
+        }
+      },
+      {
+        "transaction_id": "MzIyMzMxMjU1NmFkaXF6a2N4",
+        "barcode": "A7K9472G",
+        "type": "600",
+        "date": "2018-12-31",
+        "category": "insolvency",
+        "subcategory": "voluntary",
+        "description": "liquidation-voluntary-appointment-of-liquidator",
+        "pages": 3,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzIyMzMxMjU1NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9tR3HCscg-lzujiNj2QuzcCWNgzV2dwGmnJndymYH9w"
+        }
+      },
+      {
+        "transaction_id": "QTdLOTQ3MjBhZGlxemtjeA",
+        "type": "RESOLUTIONS",
+        "date": "2018-12-31",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "liquidation",
+            "description": "liquidation-voluntary-extraordinary-resolution-to-wind-up-with-case-start-date",
+            "type": "LRESEX",
+            "subcategory": [
+              "voluntary",
+              "resolution"
+            ],
+            "description_values": {
+              "case_start_date": "2018-11-27"
+            },
+            "original_description": "Extraordinary resolution to wind up"
+          }
+        ],
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/QTdLOTQ3MjBhZGlxemtjeA",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/cCNc-nRUp7EwQcrwbfv9D6jniD32McGyDacUKencUds"
+        }
+      },
+      {
+        "transaction_id": "MzIxNzA4NzY0MWFkaXF6a2N4",
+        "barcode": "A7GF4NOO",
+        "type": "AD01",
+        "date": "2018-10-16",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2018-10-16",
+          "old_address": "90 West Street St. Philips Bristol BS2 0BW England",
+          "new_address": "Mary Street House Mary Street Taunton Somerset TA1 3NW"
+        },
+        "pages": 2,
+        "action_date": "2018-10-16",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10195922/filing-history/MzIxNzA4NzY0MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/i27NoUv1hkeoxPPFH4almD2RdzXDBUsPRDu9OdeWmQg"
+        }
+      },
+      {
+        "transaction_id": "MzIwOTgyMDYwOGFkaXF6a2N4",
+        "barcode": "X7AACSQH",
+        "type": "AD01",
+        "date": "2018-07-16",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2018-07-16",
+          "old_address": "61 Robins Lane Frome Somerset BA11 3ET United Kingdom",
+          "new_address": "90 West Street St. Philips Bristol BS2 0BW"
+        },
+        "pages": 1,
+        "action_date": "2018-07-16",
+        "links": {
+          "self": "/company/10195922/filing-history/MzIwOTgyMDYwOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/NtAIrYQSyPqMN009JrVAP9ow0STBY-Sk-SbNr5SHYwE"
+        }
+      },
+      {
+        "transaction_id": "MzE5OTAwMzE5MWFkaXF6a2N4",
+        "barcode": "X70R2IWP",
+        "type": "AA",
+        "date": "2018-02-28",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2017-05-31"
+        },
+        "pages": 8,
+        "action_date": "2017-05-31",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE5OTAwMzE5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/C6QeLChuU4xCjTVBJT-cP7FtSJNEAfpkMrSP8DKpwEk"
+        }
+      },
+      {
+        "transaction_id": "MzE5NzY1NDY2M2FkaXF6a2N4",
+        "barcode": "X6ZNWVEI",
+        "type": "CS01",
+        "date": "2018-02-13",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2018-01-20"
+        },
+        "pages": 3,
+        "action_date": "2018-01-20",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE5NzY1NDY2M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/5DTk1YR_QX7r65gof-fx5cojErHrreCL_qhwY3XM7sg"
+        }
+      },
+      {
+        "transaction_id": "MzE2NzEwMjExOWFkaXF6a2N4",
+        "barcode": "X5YJ5EAR",
+        "type": "CS01",
+        "date": "2017-01-20",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2017-01-20"
+        },
+        "pages": 7,
+        "action_date": "2017-01-20",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE2NzEwMjExOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/lypWG0540qTdHh3GrUKtmi2buUFpANwMAEwFFszK6Gk"
+        }
+      },
+      {
+        "transaction_id": "MzE2NjEzNTE2NWFkaXF6a2N4",
+        "barcode": "X5XL5MWA",
+        "type": "TM01",
+        "date": "2017-01-07",
+        "category": "officers",
+        "subcategory": "termination",
+        "description": "termination-director-company-with-name-termination-date",
+        "description_values": {
+          "officer_name": "Bruno Miguel Dos Santos Mendes",
+          "termination_date": "2017-01-02"
+        },
+        "pages": 1,
+        "action_date": "2017-01-02",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE2NjEzNTE2NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ktOQGpW58uc1Iwtbdw5GLhWSJ0gmfPUvOGv2EvzSlFE"
+        }
+      },
+      {
+        "transaction_id": "MzE0OTQ1NjYzMmFkaXF6a2N4",
+        "barcode": "X57T4E9S",
+        "type": "CH01",
+        "date": "2016-05-26",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2016-05-24",
+          "officer_name": "Mr Jose Joao Roque Sardinheiro"
+        },
+        "pages": 2,
+        "action_date": "2016-05-24",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE0OTQ1NjYzMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/D5nwlwLl9BrMG1MsUvLAAbCrrDB9bxWNFjjiysM-vk4"
+        }
+      },
+      {
+        "transaction_id": "MzE0OTI0OTU3NmFkaXF6a2N4",
+        "barcode": "X57NW9AY",
+        "type": "CH01",
+        "date": "2016-05-24",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2016-05-24",
+          "officer_name": "Mr Miguel Dos Santos Mendes"
+        },
+        "pages": 2,
+        "action_date": "2016-05-24",
+        "links": {
+          "self": "/company/10195922/filing-history/MzE0OTI0OTU3NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/31-tugVl2KrcOKwkE8as6ar1DYc3L4E4oNcMPvzHkFw"
+        }
+      },
+      {
+        "transaction_id": "MzE0OTE2MzQwNGFkaXF6a2N4",
+        "barcode": "X57L96XK",
+        "type": "NEWINC",
+        "date": "2016-05-24",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "capital",
+            "date": "2016-05-24",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2016-05-24",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "1,500"
+                }
+              ]
+            },
+            "action_date": "2016-05-24"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 24,
+        "links": {
+          "self": "/company/10195922/filing-history/MzE0OTE2MzQwNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/zrjBP8bW_UvTKvQ-KF2cTp4um01NbKay74Cco7-N4nY"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "baa345e292c4419ca57ddc27277cf22fce6ff7cb",
+        "address": {
+          "country": "United Kingdom",
+          "locality": "Frome",
+          "postal_code": "BA11 3ET",
+          "premises": "61 Robins Lane",
+          "region": "Somerset"
+        },
+        "appointed_on": "2016-05-24",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Portugal",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1962
+        },
+        "links": {
+          "self": "/company/10195922/appointments/k8Z0zP1emXlnAIziVTgi3emBC2s",
+          "officer": {
+            "appointments": "/officers/IEAMQE6qptdvnrYzsLbISYfliCg/appointments"
+          }
+        },
+        "name": "CAMEIRA, Jorge Manuel Antunes",
+        "nationality": "Portuguese",
+        "officer_role": "director",
+        "person_number": "208433500001"
+      },
+      {
+        "etag": "baa345e292c4419ca57ddc27277cf22fce6ff7cb",
+        "address": {
+          "country": "United Kingdom",
+          "locality": "Frome",
+          "postal_code": "BA11 3ET",
+          "premises": "61 Robins Lane",
+          "region": "Somerset"
+        },
+        "appointed_on": "2016-05-24",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Portugal",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1956
+        },
+        "links": {
+          "self": "/company/10195922/appointments/iaMq-yIai_LMwTq3uP4Mb8Fb05g",
+          "officer": {
+            "appointments": "/officers/CK408mHrNxMUbxWKPhMoYxU6Pos/appointments"
+          }
+        },
+        "name": "SARDINHEIRO, Jose Joao Antunes Roque",
+        "nationality": "Portuguese",
+        "officer_role": "director",
+        "person_number": "208433480001"
+      },
+      {
+        "etag": "baa345e292c4419ca57ddc27277cf22fce6ff7cb",
+        "address": {
+          "country": "United Kingdom",
+          "locality": "Frome",
+          "postal_code": "BA11 3ET",
+          "premises": "61 Robins Lane",
+          "region": "Somerset"
+        },
+        "appointed_on": "2016-05-24",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "Portugal",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1979
+        },
+        "links": {
+          "self": "/company/10195922/appointments/JNjFyGumxt6G9wz8kMsXae6quAM",
+          "officer": {
+            "appointments": "/officers/PU1iruqaMgzNH0MxECg5h_1TsEU/appointments"
+          }
+        },
+        "name": "MENDES, Bruno Miguel Dos Santos",
+        "nationality": "Portugese",
+        "officer_role": "director",
+        "resigned_on": "2017-01-02",
+        "person_number": "208433490002"
+      }
+    ],
+    "charges": []
+  },
+  {
+    "company_number": "14533304",
+    "profile": {
+      "accounts": {
+        "accounting_reference_date": {
+          "day": "31",
+          "month": "12"
+        },
+        "last_accounts": {
+          "made_up_to": "2023-12-31",
+          "period_end_on": "2023-12-31",
+          "type": "total-exemption-full"
+        }
+      },
+      "can_file": false,
+      "company_name": "THE MALTHOUSE AT RISHWORTH LTD",
+      "company_number": "14533304",
+      "company_status": "dissolved",
+      "confirmation_statement": {
+        "last_made_up_to": "2023-12-08"
+      },
+      "date_of_cessation": "2025-02-11",
+      "date_of_creation": "2022-12-09",
+      "etag": "dce3eb2d9a6b44b66ebd7c59e4fd90270a2244d5",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "jurisdiction": "england-wales",
+      "links": {
+        "persons_with_significant_control": "/company/14533304/persons-with-significant-control",
+        "self": "/company/14533304",
+        "filing_history": "/company/14533304/filing-history",
+        "officers": "/company/14533304/officers"
+      },
+      "registered_office_address": {
+        "address_line_1": "C/O Sailbrand Ltd",
+        "address_line_2": "Red Doles Lane",
+        "country": "England",
+        "locality": "Huddersfield",
+        "postal_code": "HD2 1YF",
+        "region": "West Yorkshire"
+      },
+      "registered_office_is_in_dispute": false,
+      "sic_codes": [
+        "56101"
+      ],
+      "type": "ltd",
+      "undeliverable_registered_office_address": false,
+      "has_super_secure_pscs": false
+    },
+    "filing_history": [
+      {
+        "transaction_id": "MzQ1MzcxMTc1MGFkaXF6a2N4",
+        "type": "GAZ2(A)",
+        "date": "2025-02-11",
+        "category": "gazette",
+        "description": "gazette-dissolved-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/14533304/filing-history/MzQ1MzcxMTc1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/WGa1HI_Pbkt2v_jIV6xLHyfD7LTN586qgd8iKr7YzYA"
+        }
+      },
+      {
+        "transaction_id": "MzQ0NDA4NTAyMGFkaXF6a2N4",
+        "type": "GAZ1(A)",
+        "date": "2024-11-26",
+        "category": "gazette",
+        "description": "gazette-notice-voluntary",
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/14533304/filing-history/MzQ0NDA4NTAyMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/m5KxfDeL9kdtMo3BoUCYWdVETraF2zzevTAjcO7mkWk"
+        }
+      },
+      {
+        "transaction_id": "MzQ0NDA4NDM4OGFkaXF6a2N4",
+        "barcode": "XDG7U56P",
+        "type": "DS01",
+        "date": "2024-11-19",
+        "category": "dissolution",
+        "description": "dissolution-application-strike-off-company",
+        "pages": 1,
+        "links": {
+          "self": "/company/14533304/filing-history/MzQ0NDA4NDM4OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/AgWdnT1TgK8K_Vn5H7oyA3DYC91UcYMTfJNk6ACWjeo"
+        }
+      },
+      {
+        "transaction_id": "MzQzMzg0MzE1M2FkaXF6a2N4",
+        "barcode": "XDAIJC69",
+        "type": "AA",
+        "date": "2024-08-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2023-12-31"
+        },
+        "pages": 6,
+        "action_date": "2023-12-31",
+        "links": {
+          "self": "/company/14533304/filing-history/MzQzMzg0MzE1M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/DdkKAVOwtKStarpku0SkVQVJenYmBnWqmQAU77SbvTg"
+        }
+      },
+      {
+        "transaction_id": "MzQwMzE2ODE2MGFkaXF6a2N4",
+        "barcode": "XCHYBNQG",
+        "type": "CS01",
+        "date": "2023-12-08",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2023-12-08"
+        },
+        "pages": 6,
+        "action_date": "2023-12-08",
+        "links": {
+          "self": "/company/14533304/filing-history/MzQwMzE2ODE2MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/oyozoidXB6-A_8FkOUbqYokdtpEaDf3YBLZd7LTDNjg"
+        }
+      },
+      {
+        "transaction_id": "MzM2MTUzMjA3NmFkaXF6a2N4",
+        "barcode": "XBIFIPW0",
+        "type": "NEWINC",
+        "date": "2022-12-09",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "capital",
+            "date": "2022-12-09",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2022-12-09",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "100"
+                }
+              ]
+            },
+            "action_date": "2022-12-09"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 37,
+        "links": {
+          "self": "/company/14533304/filing-history/MzM2MTUzMjA3NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/kAsq7vGG8OieLyufHmPFlegiQ8P46VJs7ApwhiDKx_g"
+        }
+      }
+    ],
+    "officers": [
+      {
+        "etag": "6dafc3a6d0500b4fef774dc2859821d2134d5503",
+        "address": {
+          "address_line_1": "Red Doles Lane",
+          "country": "England",
+          "locality": "Huddersfield",
+          "postal_code": "HD2 1YF",
+          "premises": "C/O Sailbrand Ltd",
+          "region": "West Yorkshire"
+        },
+        "appointed_on": "2022-12-09",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1976
+        },
+        "links": {
+          "self": "/company/14533304/appointments/WTGLvsM0WJbLpfAi0DJgxJAG9zg",
+          "officer": {
+            "appointments": "/officers/ufu1J-pN5TU3ONgBpjWhjh9HhsI/appointments"
+          }
+        },
+        "name": "ROBERTS, Lee William",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "140147100002"
+      }
+    ],
+    "charges": []
+  }
+]
