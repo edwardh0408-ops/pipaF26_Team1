@@ -1,10 +1,13 @@
+import math
 import os
 from datetime import date, datetime
 
 import psycopg2
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
 from psycopg2.extras import RealDictCursor
+
+from model import run_model
 
 load_dotenv()
 
@@ -53,6 +56,23 @@ def api_items():
         for row in rows
     ]
     return jsonify(items)
+
+
+def predict_error(message):
+    return jsonify({"error": message}), 400
+
+
+@app.route("/api/predict", methods=["POST"])
+def api_predict():
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict) or "value" not in body or body["value"] is None:
+        return predict_error("value is required")
+
+    value = body["value"]
+    if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
+        return predict_error("value must be a number")
+
+    return jsonify(run_model(value))
 
 
 if __name__ == "__main__":
