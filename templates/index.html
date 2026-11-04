@@ -59,6 +59,37 @@
     #predict-section {
       margin-top: 2rem;
     }
+
+    #predict-section h2 {
+      font-size: 1.25rem;
+      margin: 0 0 1rem;
+    }
+
+    #predict-section label {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    #predict-section input {
+      display: block;
+      margin-bottom: 0.75rem;
+      padding: 0.35rem 0.5rem;
+      font-family: inherit;
+    }
+
+    #predict-section button {
+      font-family: inherit;
+      padding: 0.35rem 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    #predict-result {
+      margin: 0;
+    }
+
+    #predict-result.error {
+      color: #9b1c1c;
+    }
   </style>
 </head>
 <body>
@@ -74,7 +105,13 @@
     </thead>
     <tbody id="companies-body"></tbody>
   </table>
-  <section id="predict-section"></section>
+  <section id="predict-section">
+    <h2>Compare a company’s age</h2>
+    <label for="company-age">Company age (years)</label>
+    <input type="number" id="company-age" name="company-age" step="any">
+    <button type="button" id="run-model">Run model</button>
+    <p id="predict-result"></p>
+  </section>
 
   <script>
     const STATUS_CLASS = {
@@ -137,6 +174,64 @@
       .catch(function () {
         showError("Could not load companies. Please try again later.");
       });
+
+    function showPredictResult(message, isError) {
+      const result = document.getElementById("predict-result");
+      result.textContent = message;
+      result.className = isError ? "error" : "";
+    }
+
+    function formatDifference(difference) {
+      return difference > 0 ? "+" + difference : String(difference);
+    }
+
+    function formatPredictSentence(data) {
+      return (
+        data.input +
+        " years is " +
+        data.label +
+        " (average " +
+        data.average_age +
+        " years, difference " +
+        formatDifference(data.difference) +
+        ")."
+      );
+    }
+
+    document.getElementById("run-model").addEventListener("click", function () {
+      const raw = document.getElementById("company-age").value.trim();
+      if (raw === "") {
+        showPredictResult("Enter a company age.", true);
+        return;
+      }
+
+      const value = Number(raw);
+      if (!Number.isFinite(value)) {
+        showPredictResult("Company age must be a number.", true);
+        return;
+      }
+
+      fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ value: value })
+      })
+        .then(function (response) {
+          return response.json().then(function (data) {
+            return { ok: response.ok, data: data };
+          });
+        })
+        .then(function (result) {
+          if (!result.ok) {
+            showPredictResult(result.data && result.data.error ? result.data.error : "Request failed", true);
+            return;
+          }
+          showPredictResult(formatPredictSentence(result.data), false);
+        })
+        .catch(function () {
+          showPredictResult("Could not run the model. Please try again later.", true);
+        });
+    });
   </script>
 </body>
 </html>
