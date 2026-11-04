@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Health Tracker</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 2rem auto;
+      max-width: 48rem;
+      padding: 0 1rem;
+      background: #fff;
+      color: #1a1a1a;
+      line-height: 1.4;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 1.25rem;
+    }
+
+    #message {
+      margin: 0 0 1rem;
+    }
+
+    #message.error {
+      color: #9b1c1c;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid #d0d0d0;
+    }
+
+    th {
+      border-bottom: 2px solid #1a1a1a;
+    }
+
+    .status-active {
+      color: green;
+    }
+
+    .status-liquidation {
+      color: orange;
+    }
+
+    .status-dissolved {
+      color: gray;
+    }
+
+    #predict-section {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Company Health Tracker</h1>
+  <p id="message">Loading…</p>
+  <table id="companies-table" hidden>
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Incorporated</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="companies-body"></tbody>
+  </table>
+  <section id="predict-section"></section>
+
+  <script>
+    const STATUS_CLASS = {
+      active: "status-active",
+      liquidation: "status-liquidation",
+      dissolved: "status-dissolved"
+    };
+
+    function textCell(value) {
+      const cell = document.createElement("td");
+      cell.textContent = value == null ? "" : String(value);
+      return cell;
+    }
+
+    function statusCell(status) {
+      const cell = textCell(status);
+      const key = String(status == null ? "" : status).trim().toLowerCase();
+      if (STATUS_CLASS[key]) {
+        cell.className = STATUS_CLASS[key];
+      }
+      return cell;
+    }
+
+    function showError(message) {
+      const status = document.getElementById("message");
+      status.textContent = message;
+      status.className = "error";
+      document.getElementById("companies-table").hidden = true;
+    }
+
+    function renderItems(items) {
+      const body = document.getElementById("companies-body");
+      body.replaceChildren();
+
+      items.forEach(function (item) {
+        const row = document.createElement("tr");
+        row.appendChild(textCell(item.company_name));
+        row.appendChild(textCell(item.incorporated));
+        row.appendChild(statusCell(item.status_today));
+        body.appendChild(row);
+      });
+
+      document.getElementById("message").hidden = true;
+      document.getElementById("companies-table").hidden = false;
+    }
+
+    fetch("/api/items")
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Request failed");
+        }
+        return response.json();
+      })
+      .then(function (items) {
+        if (!Array.isArray(items)) {
+          throw new Error("Unexpected response");
+        }
+        renderItems(items);
+      })
+      .catch(function () {
+        showError("Could not load companies. Please try again later.");
+      });
+  </script>
+</body>
+</html>
