@@ -156,9 +156,10 @@ CREATE TABLE associated_filing_attribute (
 
 CREATE TABLE share_capital (
     associated_filing_id INTEGER NOT NULL,
+    line_number INTEGER NOT NULL,
     currency VARCHAR NOT NULL,
     amount NUMERIC NOT NULL,
-    PRIMARY KEY (associated_filing_id, currency),
+    PRIMARY KEY (associated_filing_id, line_number),
     FOREIGN KEY (associated_filing_id) REFERENCES associated_filing (associated_filing_id)
 );
 
@@ -171,11 +172,11 @@ CREATE TABLE charge (
     classification_description VARCHAR NOT NULL,
     created_on DATE NOT NULL,
     delivered_on DATE NOT NULL,
-    contains_fixed_charge BOOLEAN NOT NULL,
-    contains_floating_charge BOOLEAN NOT NULL,
-    contains_negative_pledge BOOLEAN NOT NULL,
-    floating_charge_covers_all BOOLEAN NOT NULL,
-    particulars_description TEXT NOT NULL,
+    contains_fixed_charge BOOLEAN,
+    contains_floating_charge BOOLEAN,
+    contains_negative_pledge BOOLEAN,
+    floating_charge_covers_all BOOLEAN,
+    particulars_description TEXT,
     PRIMARY KEY (company_number, charge_number),
     FOREIGN KEY (company_number) REFERENCES company (company_number)
 );
@@ -199,10 +200,12 @@ CREATE TABLE charge_transaction (
     FOREIGN KEY (filing_transaction_id) REFERENCES filing (transaction_id)
 );
 
--- Derived metrics and labels. Blank failed_within_12m is stored as NULL.
+-- One row per company per prediction date.
+-- outcome is the status recorded for that date. final_outcome is what eventually happened.
+-- Blank failed_within_12m is stored as NULL.
 -- status_today, accounts_type_last, and incorporated live on company.
 CREATE TABLE company_snapshot (
-    company_number VARCHAR PRIMARY KEY,
+    company_number VARCHAR NOT NULL,
     as_of_date DATE NOT NULL,
     age_years NUMERIC NOT NULL,
     accounts_filings INTEGER NOT NULL,
@@ -217,9 +220,11 @@ CREATE TABLE company_snapshot (
     charges_created INTEGER NOT NULL,
     charges_outstanding INTEGER NOT NULL,
     filings_total INTEGER NOT NULL,
-    outcome VARCHAR NOT NULL CHECK (outcome IN ('active', 'insolvency', 'voluntary_strike_off')),
-    outcome_date DATE NOT NULL,
+    outcome VARCHAR CHECK (outcome IN ('active', 'insolvency', 'voluntary_strike_off', 'compulsory_strike_off')),
+    outcome_date DATE,
     failed_within_12m BOOLEAN,
+    final_outcome VARCHAR CHECK (final_outcome IN ('active', 'insolvency', 'voluntary_strike_off', 'compulsory_strike_off')),
+    PRIMARY KEY (company_number, as_of_date),
     FOREIGN KEY (company_number) REFERENCES company (company_number)
 );
 

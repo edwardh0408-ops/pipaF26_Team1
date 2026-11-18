@@ -152,8 +152,8 @@ def company_row(record):
         profile["can_file"],
         profile["has_charges"],
         profile["has_insolvency_history"],
-        profile["has_super_secure_pscs"],
-        profile["registered_office_is_in_dispute"],
+        profile.get("has_super_secure_pscs", False),
+        profile.get("registered_office_is_in_dispute", False),
         profile["undeliverable_registered_office_address"],
         address.get("address_line_1"),
         address.get("address_line_2"),
@@ -321,9 +321,14 @@ def build_rows(companies, snapshots):
                 )
                 for name, value in (associated.get("description_values") or {}).items():
                     if name == "capital":
-                        for line in value:
+                        for line_number, line in enumerate(value, start=1):
                             capital_rows.append(
-                                (associated_id, line["currency"], amount(line["figure"]))
+                                (
+                                    associated_id,
+                                    line_number,
+                                    line["currency"],
+                                    amount(line["figure"]),
+                                )
                             )
                         continue
                     if isinstance(value, (dict, list)):
@@ -345,11 +350,11 @@ def build_rows(companies, snapshots):
                     classification["description"],
                     charge["created_on"],
                     charge["delivered_on"],
-                    particulars["contains_fixed_charge"],
-                    particulars["contains_floating_charge"],
-                    particulars["contains_negative_pledge"],
-                    particulars["floating_charge_covers_all"],
-                    particulars["description"],
+                    particulars.get("contains_fixed_charge"),
+                    particulars.get("contains_floating_charge"),
+                    particulars.get("contains_negative_pledge"),
+                    particulars.get("floating_charge_covers_all"),
+                    particulars.get("description"),
                 )
             )
             for person in charge.get("persons_entitled") or []:
@@ -574,7 +579,7 @@ def main():
                 insert_rows(
                     cur,
                     "share_capital",
-                    ["associated_filing_id", "currency", "amount"],
+                    ["associated_filing_id", "line_number", "currency", "amount"],
                     rows["share_capital"],
                 )
                 insert_rows(
