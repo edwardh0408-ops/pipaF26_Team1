@@ -1,0 +1,619 @@
+{
+  "n_rows": 747,
+  "n_companies": 228,
+  "rows_per_company": {
+    "min": 1,
+    "max": 5
+  },
+  "class_counts_rows": {
+    "active": 440,
+    "insolvency": 186,
+    "compulsory_strike_off": 86,
+    "voluntary_strike_off": 35
+  },
+  "class_counts_companies": {
+    "active": 100,
+    "insolvency": 62,
+    "compulsory_strike_off": 40,
+    "voluntary_strike_off": 26
+  },
+  "missing_accounts_lateness_rows": 174,
+  "split": {
+    "test_size": 0.3,
+    "random_state": 42,
+    "stratified_on": "final_outcome",
+    "train_rows": 522,
+    "test_rows": 225,
+    "test_rows_whose_company_is_also_in_train": 194,
+    "share_of_test_rows_with_company_in_train": 0.8622222222222222
+  },
+  "optimization": {
+    "cv_folds": 5,
+    "selection_metric": "f1_macro",
+    "reason": "Accuracy is mostly the share of active companies. Macro F1 asks the tree to separate all four outcomes, including the failure modes the product is meant to flag.",
+    "best_params": {
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 12,
+      "min_samples_leaf": 5,
+      "min_samples_split": 10
+    },
+    "best_mean_cv_f1_macro": 0.39481626080938687,
+    "best_accuracy_point_in_the_same_grid": {
+      "params": {
+        "class_weight": null,
+        "criterion": "entropy",
+        "max_depth": 6,
+        "min_samples_leaf": 20,
+        "min_samples_split": 10
+      },
+      "mean_cv_accuracy": 0.6493772893772893,
+      "mean_cv_f1_macro": 0.34994333831011804
+    },
+    "fitted_depth": 12,
+    "fitted_leaves": 62
+  },
+  "baseline_majority_class": "active",
+  "baseline_test": {
+    "accuracy": 0.5866666666666667,
+    "precision_macro": 0.14666666666666667,
+    "recall_macro": 0.25,
+    "f1_macro": 0.18487394957983194,
+    "precision_weighted": 0.34417777777777775,
+    "recall_weighted": 0.5866666666666667,
+    "precision_per_class": {
+      "active": 0.5866666666666667,
+      "insolvency": 0.0,
+      "compulsory_strike_off": 0.0,
+      "voluntary_strike_off": 0.0
+    },
+    "recall_per_class": {
+      "active": 1.0,
+      "insolvency": 0.0,
+      "compulsory_strike_off": 0.0,
+      "voluntary_strike_off": 0.0
+    },
+    "support_per_class": {
+      "active": 132,
+      "insolvency": 56,
+      "compulsory_strike_off": 26,
+      "voluntary_strike_off": 11
+    },
+    "confusion_matrix": [
+      [
+        132,
+        0,
+        0,
+        0
+      ],
+      [
+        56,
+        0,
+        0,
+        0
+      ],
+      [
+        26,
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "active",
+      "insolvency",
+      "compulsory_strike_off",
+      "voluntary_strike_off"
+    ],
+    "not_active": {
+      "definition": "Any final_outcome other than active counts as not staying active.",
+      "accuracy": 0.5866666666666667,
+      "precision": 0.0,
+      "recall": 0.0,
+      "positives": 93
+    }
+  },
+  "v1_train": {
+    "accuracy": 0.8007662835249042,
+    "precision_macro": 0.7033709437397607,
+    "recall_macro": 0.6149746087246087,
+    "f1_macro": 0.6471739596739597,
+    "precision_weighted": 0.7898618618122667,
+    "recall_weighted": 0.8007662835249042,
+    "precision_per_class": {
+      "active": 0.8279883381924198,
+      "insolvency": 0.8220338983050848,
+      "compulsory_strike_off": 0.625,
+      "voluntary_strike_off": 0.5384615384615384
+    },
+    "recall_per_class": {
+      "active": 0.922077922077922,
+      "insolvency": 0.7461538461538462,
+      "compulsory_strike_off": 0.5,
+      "voluntary_strike_off": 0.2916666666666667
+    },
+    "support_per_class": {
+      "active": 308,
+      "insolvency": 130,
+      "compulsory_strike_off": 60,
+      "voluntary_strike_off": 24
+    },
+    "confusion_matrix": [
+      [
+        284,
+        13,
+        8,
+        3
+      ],
+      [
+        26,
+        97,
+        6,
+        1
+      ],
+      [
+        24,
+        4,
+        30,
+        2
+      ],
+      [
+        9,
+        4,
+        4,
+        7
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "active",
+      "insolvency",
+      "compulsory_strike_off",
+      "voluntary_strike_off"
+    ],
+    "not_active": {
+      "definition": "Any final_outcome other than active counts as not staying active.",
+      "accuracy": 0.8409961685823755,
+      "precision": 0.8659217877094972,
+      "recall": 0.7242990654205608,
+      "positives": 214
+    }
+  },
+  "v1_test": {
+    "accuracy": 0.6577777777777778,
+    "precision_macro": 0.4830036985196201,
+    "recall_macro": 0.4683233433233433,
+    "f1_macro": 0.4734956188477013,
+    "precision_weighted": 0.6536403822829624,
+    "recall_weighted": 0.6577777777777778,
+    "precision_per_class": {
+      "active": 0.7323943661971831,
+      "insolvency": 0.6956521739130435,
+      "compulsory_strike_off": 0.39285714285714285,
+      "voluntary_strike_off": 0.1111111111111111
+    },
+    "recall_per_class": {
+      "active": 0.7878787878787878,
+      "insolvency": 0.5714285714285714,
+      "compulsory_strike_off": 0.4230769230769231,
+      "voluntary_strike_off": 0.09090909090909091
+    },
+    "support_per_class": {
+      "active": 132,
+      "insolvency": 56,
+      "compulsory_strike_off": 26,
+      "voluntary_strike_off": 11
+    },
+    "confusion_matrix": [
+      [
+        104,
+        12,
+        10,
+        6
+      ],
+      [
+        19,
+        32,
+        5,
+        0
+      ],
+      [
+        12,
+        1,
+        11,
+        2
+      ],
+      [
+        7,
+        1,
+        2,
+        1
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "active",
+      "insolvency",
+      "compulsory_strike_off",
+      "voluntary_strike_off"
+    ],
+    "not_active": {
+      "definition": "Any final_outcome other than active counts as not staying active.",
+      "accuracy": 0.7066666666666667,
+      "precision": 0.6626506024096386,
+      "recall": 0.5913978494623656,
+      "positives": 93
+    }
+  },
+  "binary_confusion_matrix": {
+    "definition": "Actual/predicted active versus not active; all three non-active outcomes are grouped together.",
+    "labels": [
+      "active",
+      "not_active"
+    ],
+    "matrix": [
+      [
+        104,
+        28
+      ],
+      [
+        38,
+        55
+      ]
+    ],
+    "accuracy": 0.7066666666666667
+  },
+  "importance": {
+    "by_original_feature": [
+      {
+        "feature": "accounts_filings",
+        "importance": 0.2054528523011607
+      },
+      {
+        "feature": "days_since_last_accounts",
+        "importance": 0.1307857150054496
+      },
+      {
+        "feature": "age_years",
+        "importance": 0.11866119292347684
+      },
+      {
+        "feature": "max_days_late_accounts",
+        "importance": 0.1171556473132857
+      },
+      {
+        "feature": "avg_days_late_accounts",
+        "importance": 0.07589676154087527
+      },
+      {
+        "feature": "strike_off_warnings",
+        "importance": 0.06669045001698617
+      },
+      {
+        "feature": "filings_total",
+        "importance": 0.06426756129877237
+      },
+      {
+        "feature": "charges_outstanding",
+        "importance": 0.04521900145187828
+      },
+      {
+        "feature": "last_accounts_type",
+        "importance": 0.04225041028189497
+      },
+      {
+        "feature": "charges_created",
+        "importance": 0.03911852769991691
+      },
+      {
+        "feature": "sic_1",
+        "importance": 0.028828603004794454
+      },
+      {
+        "feature": "n_sic_codes",
+        "importance": 0.025798564935555473
+      },
+      {
+        "feature": "directors_active",
+        "importance": 0.018669855212831515
+      },
+      {
+        "feature": "address_changes",
+        "importance": 0.012163688247958182
+      },
+      {
+        "feature": "jurisdiction",
+        "importance": 0.006689243106658011
+      },
+      {
+        "feature": "director_resignations_12m",
+        "importance": 0.0023519256585053314
+      }
+    ],
+    "by_encoded_column": [
+      {
+        "feature": "accounts_filings",
+        "importance": 0.2054528523011607
+      },
+      {
+        "feature": "days_since_last_accounts",
+        "importance": 0.1307857150054496
+      },
+      {
+        "feature": "age_years",
+        "importance": 0.11866119292347684
+      },
+      {
+        "feature": "max_days_late_accounts",
+        "importance": 0.1171556473132857
+      },
+      {
+        "feature": "avg_days_late_accounts",
+        "importance": 0.07589676154087527
+      },
+      {
+        "feature": "strike_off_warnings",
+        "importance": 0.06669045001698617
+      },
+      {
+        "feature": "filings_total",
+        "importance": 0.06426756129877237
+      },
+      {
+        "feature": "charges_outstanding",
+        "importance": 0.04521900145187828
+      },
+      {
+        "feature": "charges_created",
+        "importance": 0.03911852769991691
+      },
+      {
+        "feature": "sic_1=licensed-restaurants",
+        "importance": 0.028828603004794454
+      },
+      {
+        "feature": "n_sic_codes",
+        "importance": 0.025798564935555473
+      },
+      {
+        "feature": "last_accounts_type=dormant",
+        "importance": 0.022535171005912326
+      },
+      {
+        "feature": "last_accounts_type=micro-entity",
+        "importance": 0.019715239275982645
+      },
+      {
+        "feature": "directors_active",
+        "importance": 0.018669855212831515
+      },
+      {
+        "feature": "address_changes",
+        "importance": 0.012163688247958182
+      },
+      {
+        "feature": "jurisdiction=england-wales",
+        "importance": 0.006689243106658011
+      },
+      {
+        "feature": "director_resignations_12m",
+        "importance": 0.0023519256585053314
+      }
+    ]
+  },
+  "tree_text": "|--- accounts_filings <= 8.50\n|   |--- strike_off_warnings <= 0.50\n|   |   |--- sic_1=licensed-restaurants <= 0.50\n|   |   |   |--- avg_days_late_accounts <= -8.65\n|   |   |   |   |--- n_sic_codes <= 3.50\n|   |   |   |   |   |--- accounts_filings <= 4.50\n|   |   |   |   |   |   |--- last_accounts_type=micro-entity <= 0.50\n|   |   |   |   |   |   |   |--- truncated branch of depth 5\n|   |   |   |   |   |   |--- last_accounts_type=micro-entity >  0.50\n|   |   |   |   |   |   |   |--- truncated branch of depth 3\n|   |   |   |   |   |--- accounts_filings >  4.50\n|   |   |   |   |   |   |--- class: insolvency\n|   |   |   |   |--- n_sic_codes >  3.50\n|   |   |   |   |   |--- class: active\n|   |   |   |--- avg_days_late_accounts >  -8.65\n|   |   |   |   |--- address_changes <= 1.50\n|   |   |   |   |   |--- filings_total <= 8.50\n|   |   |   |   |   |   |--- age_years <= 2.30\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |   |--- age_years >  2.30\n|   |   |   |   |   |   |   |--- class: compulsory_strike_off\n|   |   |   |   |   |--- filings_total >  8.50\n|   |   |   |   |   |   |--- filings_total <= 18.00\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |   |--- filings_total >  18.00\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |--- address_changes >  1.50\n|   |   |   |   |   |--- class: voluntary_strike_off\n|   |   |--- sic_1=licensed-restaurants >  0.50\n|   |   |   |--- charges_created <= 0.50\n|   |   |   |   |--- days_since_last_accounts <= 78.50\n|   |   |   |   |   |--- age_years <= 4.94\n|   |   |   |   |   |   |--- avg_days_late_accounts <= 87.75\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |   |--- avg_days_late_accounts >  87.75\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |--- age_years >  4.94\n|   |   |   |   |   |   |--- class: active\n|   |   |   |   |--- days_since_last_accounts >  78.50\n|   |   |   |   |   |--- days_since_last_accounts <= 109.00\n|   |   |   |   |   |   |--- max_days_late_accounts <= 72.50\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |   |--- max_days_late_accounts >  72.50\n|   |   |   |   |   |   |   |--- truncated branch of depth 2\n|   |   |   |   |   |--- days_since_last_accounts >  109.00\n|   |   |   |   |   |   |--- max_days_late_accounts <= -168.50\n|   |   |   |   |   |   |   |--- class: insolvency\n|   |   |   |   |   |   |--- max_days_late_accounts >  -168.50\n|   |   |   |   |   |   |   |--- truncated branch of depth 6\n|   |   |   |--- charges_created >  0.50\n|   |   |   |   |--- charges_outstanding <= 1.50\n|   |   |   |   |   |--- age_years <= 3.31\n|   |   |   |   |   |   |--- class: insolvency\n|   |   |   |   |   |--- age_years >  3.31\n|   |   |   |   |   |   |--- class: insolvency\n|   |   |   |   |--- charges_outstanding >  1.50\n|   |   |   |   |   |--- class: active\n|   |--- strike_off_warnings >  0.50\n|   |   |--- accounts_filings <= 4.50\n|   |   |   |--- last_accounts_type=dormant <= 0.50\n|   |   |   |   |--- days_since_last_accounts <= 50.00\n|   |   |   |   |   |--- class: active\n|   |   |   |   |--- days_since_last_accounts >  50.00\n|   |   |   |   |   |--- age_years <= 3.38\n|   |   |   |   |   |   |--- days_since_last_accounts <= 357.50\n|   |   |   |   |   |   |   |--- truncated branch of depth 4\n|   |   |   |   |   |   |--- days_since_last_accounts >  357.50\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |   |   |--- age_years >  3.38\n|   |   |   |   |   |   |--- days_since_last_accounts <= 880.00\n|   |   |   |   |   |   |   |--- truncated branch of depth 4\n|   |   |   |   |   |   |--- days_since_last_accounts >  880.00\n|   |   |   |   |   |   |   |--- class: active\n|   |   |   |--- last_accounts_type=dormant >  0.50\n|   |   |   |   |--- filings_total <= 17.00\n|   |   |   |   |   |--- class: compulsory_strike_off\n|   |   |   |   |--- filings_total >  17.00\n|   |   |   |   |   |--- class: active\n|   |   |--- accounts_filings >  4.50\n|   |   |   |--- max_days_late_accounts <= 75.50\n|   |   |   |   |--- class: active\n|   |   |   |--- max_days_late_accounts >  75.50\n|   |   |   |   |--- age_years <= 6.64\n|   |   |   |   |   |--- class: active\n|   |   |   |   |--- age_years >  6.64\n|   |   |   |   |   |--- avg_days_late_accounts <= 44.30\n|   |   |   |   |   |   |--- class: insolvency\n|   |   |   |   |   |--- avg_days_late_accounts >  44.30\n|   |   |   |   |   |   |--- class: insolvency\n|--- accounts_filings >  8.50\n|   |--- max_days_late_accounts <= 30.50\n|   |   |--- class: insolvency\n|   |--- max_days_late_accounts >  30.50\n|   |   |--- class: insolvency\n",
+  "company_holdout": {
+    "note": "Companies, not rows, were split. Hyperparameters are the ones chosen on the row-level training set. This is a check on how much the row split was helped by seeing the same company twice.",
+    "train_companies": 159,
+    "test_companies": 69,
+    "train_rows": 517,
+    "test_rows": 230,
+    "majority_class": "active",
+    "train_accuracy": 0.8297872340425532,
+    "baseline_test": {
+      "accuracy": 0.5739130434782609,
+      "precision_macro": 0.14347826086956522,
+      "recall_macro": 0.25,
+      "f1_macro": 0.18232044198895028,
+      "precision_weighted": 0.32937618147448017,
+      "recall_weighted": 0.5739130434782609,
+      "precision_per_class": {
+        "active": 0.5739130434782609,
+        "insolvency": 0.0,
+        "compulsory_strike_off": 0.0,
+        "voluntary_strike_off": 0.0
+      },
+      "recall_per_class": {
+        "active": 1.0,
+        "insolvency": 0.0,
+        "compulsory_strike_off": 0.0,
+        "voluntary_strike_off": 0.0
+      },
+      "support_per_class": {
+        "active": 132,
+        "insolvency": 58,
+        "compulsory_strike_off": 29,
+        "voluntary_strike_off": 11
+      },
+      "confusion_matrix": [
+        [
+          132,
+          0,
+          0,
+          0
+        ],
+        [
+          58,
+          0,
+          0,
+          0
+        ],
+        [
+          29,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "active",
+        "insolvency",
+        "compulsory_strike_off",
+        "voluntary_strike_off"
+      ],
+      "not_active": {
+        "definition": "Any final_outcome other than active counts as not staying active.",
+        "accuracy": 0.5739130434782609,
+        "precision": 0.0,
+        "recall": 0.0,
+        "positives": 98
+      }
+    },
+    "v1_test": {
+      "accuracy": 0.5260869565217391,
+      "precision_macro": 0.2805445637836819,
+      "recall_macro": 0.2938871473354232,
+      "f1_macro": 0.2854891710540468,
+      "precision_weighted": 0.48759177788155106,
+      "recall_weighted": 0.5260869565217391,
+      "precision_per_class": {
+        "active": 0.6620689655172414,
+        "insolvency": 0.39344262295081966,
+        "compulsory_strike_off": 0.06666666666666667,
+        "voluntary_strike_off": 0.0
+      },
+      "recall_per_class": {
+        "active": 0.7272727272727273,
+        "insolvency": 0.41379310344827586,
+        "compulsory_strike_off": 0.034482758620689655,
+        "voluntary_strike_off": 0.0
+      },
+      "support_per_class": {
+        "active": 132,
+        "insolvency": 58,
+        "compulsory_strike_off": 29,
+        "voluntary_strike_off": 11
+      },
+      "confusion_matrix": [
+        [
+          96,
+          25,
+          5,
+          6
+        ],
+        [
+          25,
+          24,
+          7,
+          2
+        ],
+        [
+          18,
+          9,
+          1,
+          1
+        ],
+        [
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "active",
+        "insolvency",
+        "compulsory_strike_off",
+        "voluntary_strike_off"
+      ],
+      "not_active": {
+        "definition": "Any final_outcome other than active counts as not staying active.",
+        "accuracy": 0.6304347826086957,
+        "precision": 0.5764705882352941,
+        "recall": 0.5,
+        "positives": 98
+      }
+    }
+  },
+  "new_customer_example": {
+    "input": {
+      "age_years": 3.1,
+      "accounts_filings": 2,
+      "avg_days_late_accounts": 45.0,
+      "max_days_late_accounts": 90.0,
+      "days_since_last_accounts": 400,
+      "directors_active": 1,
+      "director_resignations_12m": 1,
+      "director_appointments_12m": 0,
+      "address_changes": 2,
+      "strike_off_warnings": 1,
+      "charges_created": 1,
+      "charges_outstanding": 1,
+      "filings_total": 12,
+      "n_sic_codes": 1,
+      "sic_1": "56101",
+      "sic_2": "none",
+      "sic_3": "none",
+      "sic_4": "none",
+      "jurisdiction": "england-wales",
+      "last_accounts_type": "micro-entity"
+    },
+    "decision": "Offer 60-day terms (model predicts: active)"
+  },
+  "flagged_customer_example": {
+    "input": {
+      "age_years": 12.0,
+      "accounts_filings": 9,
+      "avg_days_late_accounts": 30.0,
+      "max_days_late_accounts": 90.0,
+      "days_since_last_accounts": 400,
+      "directors_active": 2,
+      "director_resignations_12m": 0,
+      "director_appointments_12m": 1,
+      "address_changes": 0,
+      "strike_off_warnings": 0,
+      "charges_created": 0,
+      "charges_outstanding": 0,
+      "filings_total": 25,
+      "n_sic_codes": 1,
+      "sic_1": "56101",
+      "sic_2": "none",
+      "sic_3": "none",
+      "sic_4": "none",
+      "jurisdiction": "england-wales",
+      "last_accounts_type": "total-exemption-full"
+    },
+    "decision": "Ask for payment upfront (model predicts: insolvency)"
+  },
+  "value_of_model": {
+    "assumptions": {
+      "loss_per_bad_debt_customer_gbp": 9000,
+      "annual_gross_profit_per_customer_gbp": 15000,
+      "walkaway_share_assumed": 0.3,
+      "false_alarm_cost_gbp": 4500.0,
+      "voluntary_closures_cause_bad_debt": false
+    },
+    "n_customers": 225,
+    "customers_causing_loss": 82,
+    "losses_caught": 51,
+    "losses_missed": 31,
+    "false_alarms": 32,
+    "baseline_cost_gbp": 738000,
+    "model_cost_gbp": 423000.0,
+    "saving_gbp": 315000.0,
+    "baseline_cost_per_customer_gbp": 3280.0,
+    "model_cost_per_customer_gbp": 1880.0,
+    "saving_per_customer_gbp": 1400.0,
+    "break_even_walkaway_share": 0.95625
+  }
+}
