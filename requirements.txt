@@ -2,6 +2,3 @@ Flask
 psycopg2-binary
 python-dotenv
 gunicorn
-pandas==3.1.1
-scikit-learn==1.9.1
-matplotlib==3.10.3
