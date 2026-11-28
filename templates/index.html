@@ -55,6 +55,29 @@
     .status-dissolved {
       color: gray;
     }
+
+    #check-section {
+      margin-top: 2rem;
+    }
+
+    #check-section h2 {
+      font-size: 1.25rem;
+      margin: 0 0 1rem;
+    }
+
+    #check-section input,
+    #check-section button {
+      font-family: inherit;
+      padding: 0.35rem 0.5rem;
+    }
+
+    #check-result {
+      margin-top: 0.75rem;
+    }
+
+    #check-result.error {
+      color: #9b1c1c;
+    }
   </style>
 </head>
 <body>
@@ -63,6 +86,7 @@
   <table id="companies-table" hidden>
     <thead>
       <tr>
+        <th>Company number</th>
         <th>Company</th>
         <th>Incorporated</th>
         <th>Status</th>
@@ -70,6 +94,14 @@
     </thead>
     <tbody id="companies-body"></tbody>
   </table>
+
+  <section id="check-section">
+    <h2>Check a company before offering credit</h2>
+    <label for="company-number">Company number</label>
+    <input type="text" id="company-number" placeholder="e.g. 10195922">
+    <button type="button" id="check-button">Run model</button>
+    <p id="check-result"></p>
+  </section>
 
   <script>
     const STATUS_CLASS = {
@@ -106,6 +138,7 @@
 
       items.forEach(function (item) {
         const row = document.createElement("tr");
+        row.appendChild(textCell(item.company_number));
         row.appendChild(textCell(item.company_name));
         row.appendChild(textCell(item.incorporated));
         row.appendChild(statusCell(item.status_today));
@@ -132,6 +165,47 @@
       .catch(function () {
         showError("Could not load companies. Please try again later.");
       });
+
+    function showCheckResult(message, isError) {
+      const result = document.getElementById("check-result");
+      result.textContent = message;
+      result.className = isError ? "error" : "";
+    }
+
+    document.getElementById("check-button").addEventListener("click", function () {
+      const companyNumber = document.getElementById("company-number").value.trim();
+      if (companyNumber === "") {
+        showCheckResult("Enter a company number.", true);
+        return;
+      }
+
+      showCheckResult("Running model…", false);
+      fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ company_number: companyNumber })
+      })
+        .then(function (response) {
+          return response.json().then(function (data) {
+            return { ok: response.ok, data: data };
+          });
+        })
+        .then(function (result) {
+          if (!result.ok) {
+            showCheckResult(result.data && result.data.error ? result.data.error : "Request failed", true);
+            return;
+          }
+          const d = result.data;
+          showCheckResult(
+            d.company_name + ": model predicts " + d.prediction_label +
+            " (data as of " + d.as_of_date + "). Decision: " + d.decision + ".",
+            false
+          );
+        })
+        .catch(function () {
+          showCheckResult("Could not run the model. Please try again later.", true);
+        });
+    });
   </script>
 </body>
 </html>
